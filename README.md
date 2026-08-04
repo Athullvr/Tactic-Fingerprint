@@ -46,3 +46,19 @@ pytest
 ```
 
 `config/settings.yaml` contains pitch/grid dimensions, feature settings, and analysis defaults. Pipeline logic lives in `src/`; notebooks are intentionally reserved for exploration.
+
+## Web product MVP
+
+The repository now includes a production-oriented web layer while retaining Python for analytics:
+
+```bash
+# Terminal 1: serve derived tactical data
+uvicorn src.api.app:app --reload --port 8000
+
+# Terminal 2: serve the Next.js interface
+cd web
+npm install
+npm run dev
+```
+
+The API exposes derived signatures only (`/health`, `/teams`, `/teams/{team}`, `/compare`, `/embedding`). The web interface provides team selection, two-team radar comparison, territorial footprint, tactical summaries, and similarity navigation. It is deliberately separated from the raw-data pipeline so visitors never trigger StatsBomb downloads.
