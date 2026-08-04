@@ -11,6 +11,7 @@ from src.analysis.embedding import pca_embedding
 from src.data.cleaner import clean_events
 from src.data.loader import load_cached_events
 from src.features.build_signature import build_signatures
+from scripts.export_web_data import export_web_data
 
 
 def main() -> None:
@@ -25,6 +26,9 @@ def main() -> None:
     output = Path("data/processed") / ("team_signatures.parquet" if args.mode == "season" else "match_signatures.parquet")
     signatures = build_signatures(clean, mode=args.mode, output_path=output)
     print(f"Saved {len(signatures)} {args.mode} signatures to {output}")
+    if args.mode == "season":
+        export_web_data(output, Path("web/public/data/tactical.json"))
+        print("Updated deployable web dataset at web/public/data/tactical.json")
     if len(signatures) >= 3:
         embedding, variance = pca_embedding(signatures)
         members, _ = cluster_teams(signatures)
