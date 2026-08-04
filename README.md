@@ -2,6 +2,8 @@
 
 Tactic Fingerprint Generator turns StatsBomb Open Data match events into a numerical **Tactical DNA Signature**: a profile of how a football team occupies space, progresses the ball, presses, and circulates possession. It deliberately does not model results, xG, or win probability.
 
+**Live website:** [web-theta-dusky-20.vercel.app](https://web-theta-dusky-20.vercel.app)
+
 ```
 StatsBomb Open Data (local cache)
           |
@@ -49,7 +51,7 @@ pytest
 
 ## Web product MVP
 
-The repository now includes a production-oriented web layer while retaining Python for analytics:
+The repository includes a production-oriented Next.js web layer while retaining Python for analytics. The public deployment is available at [web-theta-dusky-20.vercel.app](https://web-theta-dusky-20.vercel.app).
 
 ```bash
 # Terminal 1: serve derived tactical data
@@ -61,6 +63,16 @@ npm install
 npm run dev
 ```
 
-The API exposes derived signatures only (`/health`, `/teams`, `/teams/{team}`, `/compare`, `/embedding`). The web interface provides team selection, two-team radar comparison, territorial footprint, tactical summaries, and similarity navigation. It is deliberately separated from the raw-data pipeline so visitors never trigger StatsBomb downloads.
+The FastAPI service exposes derived signatures only (`/health`, `/teams`, `/teams/{team}`, `/compare`, `/embedding`). The web interface is a standalone static-data deployment and provides team selection, two-team radar comparison, territorial footprint, tactical summaries, and similarity navigation. It is deliberately separated from the raw-data pipeline so visitors never trigger StatsBomb downloads.
 
 For Vercel, the season pipeline also writes `web/public/data/tactical.json`, a small static derived-data payload. This makes the Next.js site deployable by itself; configure Vercel's **Root Directory** as `web/` and deploy. Re-run the season pipeline before a new deployment whenever the underlying competition data changes.
+
+### Current data scope
+
+The deployed dataset currently uses the 2015 Champions League season and therefore contains two team profiles: Atletico Madrid and Real Madrid. This demonstrates the comparisons and visualisations, but it limits similarity results and clustering. To make the explorer genuinely useful, run the pipeline across additional StatsBomb Open Data competitions and seasons, then redeploy the regenerated `web/public/data/tactical.json`.
+
+```bash
+python scripts/run_pipeline.py --competition "Champions League" --season 2015 --mode season
+cd web
+npx vercel --prod
+```
