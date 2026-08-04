@@ -23,5 +23,5 @@ def possession_features(events: pd.DataFrame, team: str, long_pass_threshold: fl
         "avg_pass_length": float(lengths.mean()) if not lengths.empty else 0.0,
         "long_pass_ratio": float((lengths > long_pass_threshold).mean()) if not lengths.empty else 0.0,
         "forward_pass_ratio": float((valid_passes["end_x"] > valid_passes["x"]).mean()) if not valid_passes.empty else 0.0,
-        "circulation_tempo": len(completed) / possession_minutes,
+        "circulation_tempo": len(completed) / possession_minutes if possession_minutes > 0 else 0.0,
     }
