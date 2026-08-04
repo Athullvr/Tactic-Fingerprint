@@ -1,0 +1,17 @@
+competition:
+  name: Champions League
+  season: 2015
+pitch:
+  length: 120
+  width: 80
+  grid_length: 6
+  grid_width: 5
+features:
+  long_pass_threshold: 30.0
+  possession_event_types: [Pass, Carry, Ball Receipt*]
+  action_event_types: [Pass, Carry, Pressure, Ball Recovery]
+  defensive_event_types: [Pressure, Ball Recovery, Duel]
+analysis:
+  pca_components: 2
+  cluster_k_min: 2
+  cluster_k_max: 8
