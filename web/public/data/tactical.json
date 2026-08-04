@@ -1,0 +1,481 @@
+{
+  "generated_at": "2026-08-04T09:03:49.807124+00:00",
+  "teams": [
+    {
+      "team": "Atl\u00e9tico Madrid",
+      "signature": {
+        "team": "Atl\u00e9tico Madrid",
+        "possession_share_mean": 0.5182860262008734,
+        "avg_pass_length_mean": 17.18056430898734,
+        "long_pass_ratio_mean": 0.10535405872193437,
+        "forward_pass_ratio_mean": 0.5699481865284974,
+        "circulation_tempo_mean": 8.93715007898894,
+        "zone_l0_w0_mean": 0.006020066889632107,
+        "zone_l0_w1_mean": 0.012040133779264214,
+        "zone_l0_w2_mean": 0.02274247491638796,
+        "zone_l0_w3_mean": 0.016053511705685617,
+        "zone_l0_w4_mean": 0.016722408026755852,
+        "zone_l1_w0_mean": 0.028762541806020066,
+        "zone_l1_w1_mean": 0.03277591973244147,
+        "zone_l1_w2_mean": 0.03277591973244147,
+        "zone_l1_w3_mean": 0.036120401337792644,
+        "zone_l1_w4_mean": 0.0274247491638796,
+        "zone_l2_w0_mean": 0.043478260869565216,
+        "zone_l2_w1_mean": 0.05953177257525084,
+        "zone_l2_w2_mean": 0.05819397993311037,
+        "zone_l2_w3_mean": 0.05819397993311037,
+        "zone_l2_w4_mean": 0.0294314381270903,
+        "zone_l3_w0_mean": 0.06555183946488294,
+        "zone_l3_w1_mean": 0.06354515050167224,
+        "zone_l3_w2_mean": 0.04749163879598662,
+        "zone_l3_w3_mean": 0.028762541806020066,
+        "zone_l3_w4_mean": 0.056856187290969896,
+        "zone_l4_w0_mean": 0.06153846153846154,
+        "zone_l4_w1_mean": 0.03879598662207358,
+        "zone_l4_w2_mean": 0.024080267558528427,
+        "zone_l4_w3_mean": 0.024080267558528427,
+        "zone_l4_w4_mean": 0.046822742474916385,
+        "zone_l5_w0_mean": 0.02274247491638796,
+        "zone_l5_w1_mean": 0.010033444816053512,
+        "zone_l5_w2_mean": 0.0013377926421404682,
+        "zone_l5_w3_mean": 0.007357859531772575,
+        "zone_l5_w4_mean": 0.02073578595317726,
+        "avg_action_height_mean": 0.435749299719888,
+        "width_dispersion_mean": 0.303552350853753,
+        "possession_share_std": 0.0,
+        "avg_pass_length_std": 0.0,
+        "long_pass_ratio_std": 0.0,
+        "forward_pass_ratio_std": 0.0,
+        "circulation_tempo_std": 0.0,
+        "zone_l0_w0_std": 0.0,
+        "zone_l0_w1_std": 0.0,
+        "zone_l0_w2_std": 0.0,
+        "zone_l0_w3_std": 0.0,
+        "zone_l0_w4_std": 0.0,
+        "zone_l1_w0_std": 0.0,
+        "zone_l1_w1_std": 0.0,
+        "zone_l1_w2_std": 0.0,
+        "zone_l1_w3_std": 0.0,
+        "zone_l1_w4_std": 0.0,
+        "zone_l2_w0_std": 0.0,
+        "zone_l2_w1_std": 0.0,
+        "zone_l2_w2_std": 0.0,
+        "zone_l2_w3_std": 0.0,
+        "zone_l2_w4_std": 0.0,
+        "zone_l3_w0_std": 0.0,
+        "zone_l3_w1_std": 0.0,
+        "zone_l3_w2_std": 0.0,
+        "zone_l3_w3_std": 0.0,
+        "zone_l3_w4_std": 0.0,
+        "zone_l4_w0_std": 0.0,
+        "zone_l4_w1_std": 0.0,
+        "zone_l4_w2_std": 0.0,
+        "zone_l4_w3_std": 0.0,
+        "zone_l4_w4_std": 0.0,
+        "zone_l5_w0_std": 0.0,
+        "zone_l5_w1_std": 0.0,
+        "zone_l5_w2_std": 0.0,
+        "zone_l5_w3_std": 0.0,
+        "zone_l5_w4_std": 0.0,
+        "avg_action_height_std": 0.0,
+        "width_dispersion_std": 0.0
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.006020066889632107
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.028762541806020066
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.043478260869565216
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.06555183946488294
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.06153846153846154
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.02274247491638796
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.012040133779264214
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.03277591973244147
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05953177257525084
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.06354515050167224
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.03879598662207358
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.010033444816053512
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.02274247491638796
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.03277591973244147
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.05819397993311037
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.04749163879598662
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.024080267558528427
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.0013377926421404682
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.016053511705685617
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.036120401337792644
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05819397993311037
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.028762541806020066
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.024080267558528427
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.007357859531772575
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.016722408026755852
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.0274247491638796
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.0294314381270903
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.056856187290969896
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.046822742474916385
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.02073578595317726
+        }
+      ],
+      "similar": [
+        {
+          "team": "Real Madrid",
+          "similarity": -1.0
+        }
+      ]
+    },
+    {
+      "team": "Real Madrid",
+      "signature": {
+        "team": "Real Madrid",
+        "possession_share_mean": 0.4817139737991266,
+        "avg_pass_length_mean": 19.690142246723465,
+        "long_pass_ratio_mean": 0.15370018975332067,
+        "forward_pass_ratio_mean": 0.603415559772296,
+        "circulation_tempo_mean": 8.752081586402266,
+        "zone_l0_w0_mean": 0.011347517730496455,
+        "zone_l0_w1_mean": 0.01347517730496454,
+        "zone_l0_w2_mean": 0.03333333333333333,
+        "zone_l0_w3_mean": 0.018439716312056736,
+        "zone_l0_w4_mean": 0.01276595744680851,
+        "zone_l1_w0_mean": 0.03333333333333333,
+        "zone_l1_w1_mean": 0.03049645390070922,
+        "zone_l1_w2_mean": 0.029078014184397163,
+        "zone_l1_w3_mean": 0.04468085106382979,
+        "zone_l1_w4_mean": 0.024113475177304965,
+        "zone_l2_w0_mean": 0.05319148936170213,
+        "zone_l2_w1_mean": 0.0524822695035461,
+        "zone_l2_w2_mean": 0.04539007092198582,
+        "zone_l2_w3_mean": 0.05673758865248227,
+        "zone_l2_w4_mean": 0.05035460992907802,
+        "zone_l3_w0_mean": 0.04539007092198582,
+        "zone_l3_w1_mean": 0.04326241134751773,
+        "zone_l3_w2_mean": 0.0574468085106383,
+        "zone_l3_w3_mean": 0.05602836879432624,
+        "zone_l3_w4_mean": 0.062411347517730496,
+        "zone_l4_w0_mean": 0.02198581560283688,
+        "zone_l4_w1_mean": 0.028368794326241134,
+        "zone_l4_w2_mean": 0.028368794326241134,
+        "zone_l4_w3_mean": 0.03900709219858156,
+        "zone_l4_w4_mean": 0.04326241134751773,
+        "zone_l5_w0_mean": 0.01276595744680851,
+        "zone_l5_w1_mean": 0.01347517730496454,
+        "zone_l5_w2_mean": 0.005673758865248227,
+        "zone_l5_w3_mean": 0.014893617021276596,
+        "zone_l5_w4_mean": 0.018439716312056736,
+        "avg_action_height_mean": 0.4208805031446541,
+        "width_dispersion_mean": 0.2918225381909568,
+        "possession_share_std": 0.0,
+        "avg_pass_length_std": 0.0,
+        "long_pass_ratio_std": 0.0,
+        "forward_pass_ratio_std": 0.0,
+        "circulation_tempo_std": 0.0,
+        "zone_l0_w0_std": 0.0,
+        "zone_l0_w1_std": 0.0,
+        "zone_l0_w2_std": 0.0,
+        "zone_l0_w3_std": 0.0,
+        "zone_l0_w4_std": 0.0,
+        "zone_l1_w0_std": 0.0,
+        "zone_l1_w1_std": 0.0,
+        "zone_l1_w2_std": 0.0,
+        "zone_l1_w3_std": 0.0,
+        "zone_l1_w4_std": 0.0,
+        "zone_l2_w0_std": 0.0,
+        "zone_l2_w1_std": 0.0,
+        "zone_l2_w2_std": 0.0,
+        "zone_l2_w3_std": 0.0,
+        "zone_l2_w4_std": 0.0,
+        "zone_l3_w0_std": 0.0,
+        "zone_l3_w1_std": 0.0,
+        "zone_l3_w2_std": 0.0,
+        "zone_l3_w3_std": 0.0,
+        "zone_l3_w4_std": 0.0,
+        "zone_l4_w0_std": 0.0,
+        "zone_l4_w1_std": 0.0,
+        "zone_l4_w2_std": 0.0,
+        "zone_l4_w3_std": 0.0,
+        "zone_l4_w4_std": 0.0,
+        "zone_l5_w0_std": 0.0,
+        "zone_l5_w1_std": 0.0,
+        "zone_l5_w2_std": 0.0,
+        "zone_l5_w3_std": 0.0,
+        "zone_l5_w4_std": 0.0,
+        "avg_action_height_std": 0.0,
+        "width_dispersion_std": 0.0
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.011347517730496455
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.03333333333333333
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.05319148936170213
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.04539007092198582
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.02198581560283688
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.01276595744680851
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.01347517730496454
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.03049645390070922
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.0524822695035461
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.04326241134751773
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.028368794326241134
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.01347517730496454
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.03333333333333333
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.029078014184397163
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.04539007092198582
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.0574468085106383
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.028368794326241134
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.005673758865248227
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.018439716312056736
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.04468085106382979
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05673758865248227
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.05602836879432624
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.03900709219858156
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.014893617021276596
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.01276595744680851
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.024113475177304965
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.05035460992907802
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.062411347517730496
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.04326241134751773
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.018439716312056736
+        }
+      ],
+      "similar": [
+        {
+          "team": "Atl\u00e9tico Madrid",
+          "similarity": -1.0
+        }
+      ]
+    }
+  ]
+}

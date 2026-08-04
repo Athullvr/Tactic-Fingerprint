@@ -2,11 +2,11 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-const API = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 const FEATURES = ["possession_share", "avg_pass_length", "forward_pass_ratio", "long_pass_ratio", "avg_action_height", "width_dispersion"];
 const LABELS: Record<string, string> = { possession_share: "Possession", avg_pass_length: "Pass length", forward_pass_ratio: "Forward passes", long_pass_ratio: "Long passes", avg_action_height: "Defensive height", width_dispersion: "Width" };
 type Signature = Record<string, number | string>;
 type Profile = { team: string; signature: Signature; zones: { length: number; width: number; value: number }[]; similar: { team: string; similarity: number }[] };
+type Dataset = { teams: Profile[] };
 
 function metric(signature: Signature, key: string) { return Number(signature[`${key}_mean`] ?? signature[key] ?? 0); }
 
@@ -44,10 +44,11 @@ export function TacticalExplorer() {
   const [comparison, setComparison] = useState("");
   const [profile, setProfile] = useState<Profile | null>(null);
   const [comparisonProfile, setComparisonProfile] = useState<Profile | null>(null);
+  const [dataset, setDataset] = useState<Dataset | null>(null);
   const [error, setError] = useState("");
-  useEffect(() => { fetch(`${API}/teams`).then((response) => response.ok ? response.json() : Promise.reject()).then((names: string[]) => { setTeams(names); setSelected(names[0] ?? ""); }).catch(() => setError("Analytics API unavailable. Start uvicorn src.api.app:app --port 8000.")); }, []);
-  useEffect(() => { if (selected) fetch(`${API}/teams/${encodeURIComponent(selected)}`).then((response) => response.json()).then(setProfile); }, [selected]);
-  useEffect(() => { if (comparison) fetch(`${API}/teams/${encodeURIComponent(comparison)}`).then((response) => response.json()).then(setComparisonProfile); else setComparisonProfile(null); }, [comparison]);
+  useEffect(() => { fetch("/data/tactical.json").then((response) => response.ok ? response.json() : Promise.reject()).then((payload: Dataset) => { setDataset(payload); const names = payload.teams.map((item) => item.team); setTeams(names); setSelected(names[0] ?? ""); }).catch(() => setError("No deployable tactical dataset yet. Run scripts/run_pipeline.py in season mode.")); }, []);
+  useEffect(() => { if (selected && dataset) setProfile(dataset.teams.find((item) => item.team === selected) ?? null); }, [selected, dataset]);
+  useEffect(() => { if (comparison && dataset) setComparisonProfile(dataset.teams.find((item) => item.team === comparison) ?? null); else setComparisonProfile(null); }, [comparison, dataset]);
   const alternatives = useMemo(() => teams.filter((team) => team !== selected), [teams, selected]);
   return <>
     <section className="hero"><div><span className="eyebrow">Football style intelligence</span><h1>Every team leaves a<br /><em>tactical fingerprint.</em></h1><p>Explore how teams occupy space, progress the ball, and defend—without reducing football to scorelines.</p></div><div className="hero-stat"><span>30</span><small>territorial zones<br />in every profile</small></div></section>
