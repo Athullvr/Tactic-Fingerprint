@@ -1,10 +1,4687 @@
 {
-  "generated_at": "2026-08-04T09:03:49.807124+00:00",
+  "generated_at": "2026-08-04T09:38:14.840653+00:00",
+  "sources": [
+    {
+      "competition": "1. Bundesliga",
+      "season": "2023"
+    },
+    {
+      "competition": "Champions League",
+      "season": "2015"
+    }
+  ],
   "teams": [
     {
+      "id": "1. Bundesliga|2023|Augsburg",
+      "team": "Augsburg",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Augsburg",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.29130955687273613,
+        "avg_pass_length_mean": 19.56919890036349,
+        "long_pass_ratio_mean": 0.13620460768315956,
+        "forward_pass_ratio_mean": 0.5765481096329894,
+        "circulation_tempo_mean": 10.033446644324545,
+        "zone_l0_w0_mean": 0.016906909498942642,
+        "zone_l0_w1_mean": 0.034191446204307106,
+        "zone_l0_w2_mean": 0.06401320616287601,
+        "zone_l0_w3_mean": 0.02448103232488887,
+        "zone_l0_w4_mean": 0.011533813818997886,
+        "zone_l1_w0_mean": 0.024804712787536144,
+        "zone_l1_w1_mean": 0.06528634931595528,
+        "zone_l1_w2_mean": 0.04176556903025333,
+        "zone_l1_w3_mean": 0.04296318674204825,
+        "zone_l1_w4_mean": 0.03315566872383583,
+        "zone_l2_w0_mean": 0.04662077596996245,
+        "zone_l2_w1_mean": 0.05772301583876397,
+        "zone_l2_w2_mean": 0.03554011479867075,
+        "zone_l2_w3_mean": 0.053882007682016314,
+        "zone_l2_w4_mean": 0.04678261620128609,
+        "zone_l3_w0_mean": 0.029390186008372534,
+        "zone_l3_w1_mean": 0.035626429588710026,
+        "zone_l3_w2_mean": 0.04379396659617625,
+        "zone_l3_w3_mean": 0.049134694229856286,
+        "zone_l3_w4_mean": 0.053698588753182855,
+        "zone_l4_w0_mean": 0.022118164947563766,
+        "zone_l4_w1_mean": 0.02385525009710414,
+        "zone_l4_w2_mean": 0.016399810107461915,
+        "zone_l4_w3_mean": 0.02525786543524233,
+        "zone_l4_w4_mean": 0.03753614431832895,
+        "zone_l5_w0_mean": 0.01031461740969315,
+        "zone_l5_w1_mean": 0.008944370117819688,
+        "zone_l5_w2_mean": 0.006797289715592767,
+        "zone_l5_w3_mean": 0.01425272970523499,
+        "zone_l5_w4_mean": 0.02322946786931941,
+        "avg_action_height_mean": 0.4538716366248694,
+        "width_dispersion_mean": 0.2705903800587235,
+        "possession_share_std": 0.05659305386355019,
+        "avg_pass_length_std": 1.7532049890864982,
+        "long_pass_ratio_std": 0.04082888513980697,
+        "forward_pass_ratio_std": 0.007183947783278494,
+        "circulation_tempo_std": 0.6604371976308863,
+        "zone_l0_w0_std": 0.004391264943248026,
+        "zone_l0_w1_std": 0.010864874196193516,
+        "zone_l0_w2_std": 0.003938112295541847,
+        "zone_l0_w3_std": 0.006959129946916404,
+        "zone_l0_w4_std": 0.008491217470113504,
+        "zone_l1_w0_std": 0.0014781407794225536,
+        "zone_l1_w1_std": 0.013562211384920803,
+        "zone_l1_w2_std": 0.008297009192525137,
+        "zone_l1_w3_std": 0.0016615597082560093,
+        "zone_l1_w4_std": 0.004369686245738206,
+        "zone_l2_w0_std": 0.017209011264080094,
+        "zone_l2_w1_std": 0.005157308704846576,
+        "zone_l2_w2_std": 0.0029994389538647442,
+        "zone_l2_w3_std": 0.015083509559362995,
+        "zone_l2_w4_std": 0.007984118078632772,
+        "zone_l3_w0_std": 0.013163005480989167,
+        "zone_l3_w1_std": 0.0031720685339432925,
+        "zone_l3_w2_std": 0.006268611626602217,
+        "zone_l3_w3_std": 0.0015752449182167352,
+        "zone_l3_w4_std": 0.006139139441543309,
+        "zone_l4_w0_std": 0.00791938198610332,
+        "zone_l4_w1_std": 0.007584912174701135,
+        "zone_l4_w2_std": 0.0038841655517672944,
+        "zone_l4_w3_std": 0.010239091968408788,
+        "zone_l4_w4_std": 1.0789348754910999e-05,
+        "zone_l5_w0_std": 0.0022010271460014674,
+        "zone_l5_w1_std": 0.00018341892883345576,
+        "zone_l5_w2_std": 0.0007120970178240043,
+        "zone_l5_w3_std": 0.0029886496051098363,
+        "zone_l5_w4_std": 0.008210694402485867,
+        "avg_action_height_std": 0.0003802573145244986,
+        "width_dispersion_std": 0.008021581762399213
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.016906909498942642
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.024804712787536144
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.04662077596996245
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.029390186008372534
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.022118164947563766
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.01031461740969315
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.034191446204307106
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.06528634931595528
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05772301583876397
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.035626429588710026
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.02385525009710414
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.008944370117819688
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.06401320616287601
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.04176556903025333
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.03554011479867075
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.04379396659617625
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.016399810107461915
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.006797289715592767
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.02448103232488887
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.04296318674204825
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.053882007682016314
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.049134694229856286
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.02525786543524233
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.01425272970523499
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.011533813818997886
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.03315566872383583
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.04678261620128609
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.053698588753182855
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.03753614431832895
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.02322946786931941
+        }
+      ],
+      "similar": [
+        {
+          "team": "Werder Bremen",
+          "similarity": 0.15900014334269677
+        },
+        {
+          "team": "Freiburg",
+          "similarity": 0.138249768823953
+        },
+        {
+          "team": "Borussia M\u00f6nchengladbach",
+          "similarity": 0.12505977550147726
+        },
+        {
+          "team": "Bayer Leverkusen",
+          "similarity": 0.06048871653472797
+        },
+        {
+          "team": "Bayern Munich",
+          "similarity": 0.001678574087242174
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Bayer Leverkusen",
+      "team": "Bayer Leverkusen",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Bayer Leverkusen",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.6230500656161776,
+        "avg_pass_length_mean": 16.811119896988092,
+        "long_pass_ratio_mean": 0.09030439670511548,
+        "forward_pass_ratio_mean": 0.556032971898449,
+        "circulation_tempo_mean": 10.684176574794002,
+        "zone_l0_w0_mean": 0.01021598735278892,
+        "zone_l0_w1_mean": 0.01539405901984296,
+        "zone_l0_w2_mean": 0.02558626214488229,
+        "zone_l0_w3_mean": 0.012445417185532987,
+        "zone_l0_w4_mean": 0.009016128127985495,
+        "zone_l1_w0_mean": 0.023564790776332105,
+        "zone_l1_w1_mean": 0.03159550496890367,
+        "zone_l1_w2_mean": 0.024050858692554262,
+        "zone_l1_w3_mean": 0.027123404681099274,
+        "zone_l1_w4_mean": 0.021604960360269106,
+        "zone_l2_w0_mean": 0.041023581296847265,
+        "zone_l2_w1_mean": 0.058061745675574906,
+        "zone_l2_w2_mean": 0.05268975146139878,
+        "zone_l2_w3_mean": 0.052871885705114516,
+        "zone_l2_w4_mean": 0.038263259436214975,
+        "zone_l3_w0_mean": 0.0531024752527371,
+        "zone_l3_w1_mean": 0.05905905777906374,
+        "zone_l3_w2_mean": 0.05004211524435647,
+        "zone_l3_w3_mean": 0.06113854914229554,
+        "zone_l3_w4_mean": 0.05485835382027622,
+        "zone_l4_w0_mean": 0.044137009407398384,
+        "zone_l4_w1_mean": 0.038884784731535046,
+        "zone_l4_w2_mean": 0.02467140558980754,
+        "zone_l4_w3_mean": 0.043470649979423064,
+        "zone_l4_w4_mean": 0.04560432048548505,
+        "zone_l5_w0_mean": 0.01935586591603062,
+        "zone_l5_w1_mean": 0.014913748436043461,
+        "zone_l5_w2_mean": 0.010058660232104642,
+        "zone_l5_w3_mean": 0.01599019690706903,
+        "zone_l5_w4_mean": 0.02120521019103261,
+        "avg_action_height_mean": 0.5163880788274839,
+        "width_dispersion_mean": 0.28163778428900843,
+        "possession_share_std": 0.10298790020898238,
+        "avg_pass_length_std": 1.0117338243845158,
+        "long_pass_ratio_std": 0.021226991635659238,
+        "forward_pass_ratio_std": 0.017710938610246335,
+        "circulation_tempo_std": 1.0725409643091943,
+        "zone_l0_w0_std": 0.00714229542301065,
+        "zone_l0_w1_std": 0.006558697209632394,
+        "zone_l0_w2_std": 0.010894255889735558,
+        "zone_l0_w3_std": 0.006386063087192256,
+        "zone_l0_w4_std": 0.0058573270148765694,
+        "zone_l1_w0_std": 0.011777164892323859,
+        "zone_l1_w1_std": 0.012724600008737303,
+        "zone_l1_w2_std": 0.009113564153016574,
+        "zone_l1_w3_std": 0.009844780402214846,
+        "zone_l1_w4_std": 0.011873834304146576,
+        "zone_l2_w0_std": 0.014654478849268708,
+        "zone_l2_w1_std": 0.015257267540528007,
+        "zone_l2_w2_std": 0.015292053236716101,
+        "zone_l2_w3_std": 0.014658367751159751,
+        "zone_l2_w4_std": 0.016072903784726533,
+        "zone_l3_w0_std": 0.013990830074341865,
+        "zone_l3_w1_std": 0.01676132423715295,
+        "zone_l3_w2_std": 0.015218758130102343,
+        "zone_l3_w3_std": 0.017782877989593018,
+        "zone_l3_w4_std": 0.016539622680482157,
+        "zone_l4_w0_std": 0.021045924336782908,
+        "zone_l4_w1_std": 0.01657415732251201,
+        "zone_l4_w2_std": 0.011368878864398335,
+        "zone_l4_w3_std": 0.019758234968737236,
+        "zone_l4_w4_std": 0.019607294024947236,
+        "zone_l5_w0_std": 0.009847000043723238,
+        "zone_l5_w1_std": 0.005065664943107735,
+        "zone_l5_w2_std": 0.003700762926471668,
+        "zone_l5_w3_std": 0.007555872128802411,
+        "zone_l5_w4_std": 0.009898801589742597,
+        "avg_action_height_std": 0.05669897650224153,
+        "width_dispersion_std": 0.014378062868055165
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.01021598735278892
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.023564790776332105
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.041023581296847265
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.0531024752527371
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.044137009407398384
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.01935586591603062
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.01539405901984296
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.03159550496890367
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.058061745675574906
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.05905905777906374
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.038884784731535046
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.014913748436043461
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.02558626214488229
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.024050858692554262
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.05268975146139878
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.05004211524435647
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.02467140558980754
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.010058660232104642
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.012445417185532987
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.027123404681099274
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.052871885705114516
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.06113854914229554
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.043470649979423064
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.01599019690706903
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.009016128127985495
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.021604960360269106
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.038263259436214975
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.05485835382027622
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.04560432048548505
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.02120521019103261
+        }
+      ],
+      "similar": [
+        {
+          "team": "Bayern Munich",
+          "similarity": 0.41726712738257565
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "similarity": 0.21076557996768636
+        },
+        {
+          "team": "VfB Stuttgart",
+          "similarity": 0.15516598279157487
+        },
+        {
+          "team": "Augsburg",
+          "similarity": 0.060488716534727954
+        },
+        {
+          "team": "Freiburg",
+          "similarity": 0.01675824341177947
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Bayern Munich",
+      "team": "Bayern Munich",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Bayern Munich",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.5618768681901456,
+        "avg_pass_length_mean": 18.214038681643487,
+        "long_pass_ratio_mean": 0.10943536958305364,
+        "forward_pass_ratio_mean": 0.553569031103155,
+        "circulation_tempo_mean": 10.844804379773795,
+        "zone_l0_w0_mean": 0.007757032205462699,
+        "zone_l0_w1_mean": 0.02006802166443422,
+        "zone_l0_w2_mean": 0.03195504047521985,
+        "zone_l0_w3_mean": 0.0189167782889756,
+        "zone_l0_w4_mean": 0.010666123114553607,
+        "zone_l1_w0_mean": 0.027054452274183217,
+        "zone_l1_w1_mean": 0.03193803505911129,
+        "zone_l1_w2_mean": 0.0300765243724885,
+        "zone_l1_w3_mean": 0.04064667171393629,
+        "zone_l1_w4_mean": 0.017903208898724595,
+        "zone_l2_w0_mean": 0.048569332013278205,
+        "zone_l2_w1_mean": 0.061599906819637756,
+        "zone_l2_w2_mean": 0.05758895812707472,
+        "zone_l2_w3_mean": 0.05745897152175179,
+        "zone_l2_w4_mean": 0.04596191252693495,
+        "zone_l3_w0_mean": 0.05164242035990915,
+        "zone_l3_w1_mean": 0.05133911828082231,
+        "zone_l3_w2_mean": 0.038361190379127594,
+        "zone_l3_w3_mean": 0.06048873099994176,
+        "zone_l3_w4_mean": 0.06033405159862559,
+        "zone_l4_w0_mean": 0.03015386407314658,
+        "zone_l4_w1_mean": 0.02985056199405975,
+        "zone_l4_w2_mean": 0.01641465261196203,
+        "zone_l4_w3_mean": 0.04297548191718595,
+        "zone_l4_w4_mean": 0.04533061557276804,
+        "zone_l5_w0_mean": 0.015617727563915905,
+        "zone_l5_w1_mean": 0.009021256770135693,
+        "zone_l5_w2_mean": 0.007930347679226603,
+        "zone_l5_w3_mean": 0.013635548308194047,
+        "zone_l5_w4_mean": 0.018743462815211692,
+        "avg_action_height_mean": 0.502170319803198,
+        "width_dispersion_mean": 0.2844718684665485,
+        "possession_share_std": 0.0547897984765211,
+        "avg_pass_length_std": 0.16688253488947513,
+        "long_pass_ratio_std": 0.013500410233460141,
+        "forward_pass_ratio_std": 0.012284627433430284,
+        "circulation_tempo_std": 0.2352586638450993,
+        "zone_l0_w0_std": 0.0012115776600081533,
+        "zone_l0_w1_std": 0.0004316580280705829,
+        "zone_l0_w2_std": 0.004408595888416515,
+        "zone_l0_w3_std": 0.002901403529206221,
+        "zone_l0_w4_std": 0.0016975132490827556,
+        "zone_l1_w0_std": 0.0030544522741832144,
+        "zone_l1_w1_std": 0.009516510395434162,
+        "zone_l1_w2_std": 0.007014384718420592,
+        "zone_l1_w3_std": 0.0035557626230271963,
+        "zone_l1_w4_std": 0.007721390716906412,
+        "zone_l2_w0_std": 0.013976122532176343,
+        "zone_l2_w1_std": 0.03149100227127133,
+        "zone_l2_w2_std": 0.01031623085434745,
+        "zone_l2_w3_std": 0.012368062430842696,
+        "zone_l2_w4_std": 0.011052821617844037,
+        "zone_l3_w0_std": 0.008721216003727215,
+        "zone_l3_w1_std": 0.003933608991904954,
+        "zone_l3_w2_std": 0.001997554015491237,
+        "zone_l3_w3_std": 0.018306912818123577,
+        "zone_l3_w4_std": 0.0007568574922835036,
+        "zone_l4_w0_std": 0.002517500436782948,
+        "zone_l4_w1_std": 0.007305107448605206,
+        "zone_l4_w2_std": 0.0010398928425834264,
+        "zone_l4_w3_std": 0.004430027371731411,
+        "zone_l4_w4_std": 0.00048756624541378135,
+        "zone_l5_w0_std": 0.00616318210937045,
+        "zone_l5_w1_std": 0.0026151068662279417,
+        "zone_l5_w2_std": 0.0015241977753188516,
+        "zone_l5_w3_std": 0.00018263350998776922,
+        "zone_l5_w4_std": 0.0001656280938792153,
+        "avg_action_height_std": 0.01237634686346857,
+        "width_dispersion_std": 0.0014717528721441137
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.007757032205462699
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.027054452274183217
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.048569332013278205
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.05164242035990915
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.03015386407314658
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.015617727563915905
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.02006802166443422
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.03193803505911129
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.061599906819637756
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.05133911828082231
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.02985056199405975
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.009021256770135693
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.03195504047521985
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.0300765243724885
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.05758895812707472
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.038361190379127594
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.01641465261196203
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.007930347679226603
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.0189167782889756
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.04064667171393629
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05745897152175179
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.06048873099994176
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.04297548191718595
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.013635548308194047
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.010666123114553607
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.017903208898724595
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.04596191252693495
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.06033405159862559
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.04533061557276804
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.018743462815211692
+        }
+      ],
+      "similar": [
+        {
+          "team": "Bayer Leverkusen",
+          "similarity": 0.4172671273825759
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "similarity": 0.39266678491822815
+        },
+        {
+          "team": "VfB Stuttgart",
+          "similarity": 0.31011287319136854
+        },
+        {
+          "team": "Werder Bremen",
+          "similarity": 0.2885875291787417
+        },
+        {
+          "team": "FSV Mainz 05",
+          "similarity": 0.13122542787066885
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Bochum",
+      "team": "Bochum",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Bochum",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.3016832848589781,
+        "avg_pass_length_mean": 21.648750643453255,
+        "long_pass_ratio_mean": 0.20619319382794335,
+        "forward_pass_ratio_mean": 0.5565419573028958,
+        "circulation_tempo_mean": 8.457583262690354,
+        "zone_l0_w0_mean": 0.014000066929924369,
+        "zone_l0_w1_mean": 0.02445117462017268,
+        "zone_l0_w2_mean": 0.06665383843116257,
+        "zone_l0_w3_mean": 0.03211632420855365,
+        "zone_l0_w4_mean": 0.009522454989625862,
+        "zone_l1_w0_mean": 0.02670002007897731,
+        "zone_l1_w1_mean": 0.04145304865805502,
+        "zone_l1_w2_mean": 0.03677966668897664,
+        "zone_l1_w3_mean": 0.03753597483434844,
+        "zone_l1_w4_mean": 0.025383173817013584,
+        "zone_l2_w0_mean": 0.05152265577939896,
+        "zone_l2_w1_mean": 0.05396057827454655,
+        "zone_l2_w2_mean": 0.045002007897731074,
+        "zone_l2_w3_mean": 0.04052439595743257,
+        "zone_l2_w4_mean": 0.04294558597148785,
+        "zone_l3_w0_mean": 0.07598386988822703,
+        "zone_l3_w1_mean": 0.07317448631283047,
+        "zone_l3_w2_mean": 0.04089251054146309,
+        "zone_l3_w3_mean": 0.03342313098186199,
+        "zone_l3_w4_mean": 0.03845793454253397,
+        "zone_l4_w0_mean": 0.052278963924770765,
+        "zone_l4_w1_mean": 0.02576132788969948,
+        "zone_l4_w2_mean": 0.017927180242286324,
+        "zone_l4_w3_mean": 0.013071414229301921,
+        "zone_l4_w4_mean": 0.028006826852285657,
+        "zone_l5_w0_mean": 0.008404725252660464,
+        "zone_l5_w1_mean": 0.012510876112709993,
+        "zone_l5_w2_mean": 0.007097918479352118,
+        "zone_l5_w3_mean": 0.009522454989625862,
+        "zone_l5_w4_mean": 0.014935412622983736,
+        "avg_action_height_mean": 0.4524094601007991,
+        "width_dispersion_mean": 0.27993721551785405,
+        "possession_share_std": 0.0030071466607217157,
+        "avg_pass_length_std": 0.10104515232461253,
+        "long_pass_ratio_std": 0.03075459733671529,
+        "forward_pass_ratio_std": 0.02240541111815686,
+        "circulation_tempo_std": 0.41134140665984553,
+        "zone_l0_w0_std": 0.003910380831269661,
+        "zone_l0_w1_std": 0.009877183588782545,
+        "zone_l0_w2_std": 0.0005103406733150406,
+        "zone_l0_w3_std": 0.0037581152533297645,
+        "zone_l0_w4_std": 0.0005672311090288464,
+        "zone_l1_w0_std": 0.0013268857506191023,
+        "zone_l1_w1_std": 0.005632153135666956,
+        "zone_l1_w2_std": 0.0020263034602770874,
+        "zone_l1_w3_std": 0.010670303192557393,
+        "zone_l1_w4_std": 0.011930259018807308,
+        "zone_l2_w0_std": 0.011163911384780135,
+        "zone_l2_w1_std": 0.003214309617830133,
+        "zone_l2_w2_std": 0.007688575061910181,
+        "zone_l2_w3_std": 0.012166187002208687,
+        "zone_l2_w4_std": 0.00413961582223412,
+        "zone_l3_w0_std": 0.007598219664011779,
+        "zone_l3_w1_std": 0.019362827120005352,
+        "zone_l3_w2_std": 0.005071615019075028,
+        "zone_l3_w3_std": 0.003572384713205275,
+        "zone_l3_w4_std": 0.004825647547018273,
+        "zone_l4_w0_std": 0.0015326952680543501,
+        "zone_l4_w1_std": 0.005581955692390068,
+        "zone_l4_w2_std": 0.004494344421390802,
+        "zone_l4_w3_std": 0.00262365303527207,
+        "zone_l4_w4_std": 0.0011411552104946127,
+        "zone_l5_w0_std": 0.003927113312361957,
+        "zone_l5_w1_std": 0.002063114918680142,
+        "zone_l5_w2_std": 0.004112843852486447,
+        "zone_l5_w3_std": 0.0005672311090288464,
+        "zone_l5_w4_std": 0.0014824978247774574,
+        "avg_action_height_std": 0.059647029161572565,
+        "width_dispersion_std": 0.004252374325980746
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.014000066929924369
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.02670002007897731
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.05152265577939896
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.07598386988822703
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.052278963924770765
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.008404725252660464
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.02445117462017268
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.04145304865805502
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05396057827454655
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.07317448631283047
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.02576132788969948
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.012510876112709993
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.06665383843116257
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.03677966668897664
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.045002007897731074
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.04089251054146309
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.017927180242286324
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.007097918479352118
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.03211632420855365
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.03753597483434844
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.04052439595743257
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.03342313098186199
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.013071414229301921
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.009522454989625862
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.009522454989625862
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.025383173817013584
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.04294558597148785
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.03845793454253397
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.028006826852285657
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.014935412622983736
+        }
+      ],
+      "similar": [
+        {
+          "team": "VfB Stuttgart",
+          "similarity": 0.17513267955153425
+        },
+        {
+          "team": "Union Berlin",
+          "similarity": 0.11226557109795132
+        },
+        {
+          "team": "Wolfsburg",
+          "similarity": 0.07979775494309788
+        },
+        {
+          "team": "Darmstadt 98",
+          "similarity": 0.021026353871568617
+        },
+        {
+          "team": "RB Leipzig",
+          "similarity": 0.013811727280946484
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Borussia Dortmund",
+      "team": "Borussia Dortmund",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Borussia Dortmund",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.3935693680040414,
+        "avg_pass_length_mean": 20.33520717980751,
+        "long_pass_ratio_mean": 0.1701770794924141,
+        "forward_pass_ratio_mean": 0.56842606998642,
+        "circulation_tempo_mean": 9.023698949612216,
+        "zone_l0_w0_mean": 0.03529772114677775,
+        "zone_l0_w1_mean": 0.05146512292738708,
+        "zone_l0_w2_mean": 0.06797149391489014,
+        "zone_l0_w3_mean": 0.033627378910397784,
+        "zone_l0_w4_mean": 0.018599403740913175,
+        "zone_l1_w0_mean": 0.04389344931797762,
+        "zone_l1_w1_mean": 0.04365657926978682,
+        "zone_l1_w2_mean": 0.047132034632034636,
+        "zone_l1_w3_mean": 0.0490841705464347,
+        "zone_l1_w4_mean": 0.05263007432818753,
+        "zone_l2_w0_mean": 0.03915706934574859,
+        "zone_l2_w1_mean": 0.04203728661275831,
+        "zone_l2_w2_mean": 0.044847055460263005,
+        "zone_l2_w3_mean": 0.05096585804132974,
+        "zone_l2_w4_mean": 0.06082251082251083,
+        "zone_l3_w0_mean": 0.0368210405946255,
+        "zone_l3_w1_mean": 0.029627133872416892,
+        "zone_l3_w2_mean": 0.03377440169893,
+        "zone_l3_w3_mean": 0.03403067058727436,
+        "zone_l3_w4_mean": 0.04048844237523483,
+        "zone_l4_w0_mean": 0.023149963244302865,
+        "zone_l4_w1_mean": 0.013075839255084539,
+        "zone_l4_w2_mean": 0.011648493016417545,
+        "zone_l4_w3_mean": 0.019789879931389365,
+        "zone_l4_w4_mean": 0.025031650739197907,
+        "zone_l5_w0_mean": 0.00793004165645675,
+        "zone_l5_w1_mean": 0.014266315445560729,
+        "zone_l5_w2_mean": 0.007168381932532875,
+        "zone_l5_w3_mean": 0.012339704320836396,
+        "zone_l5_w4_mean": 0.009670832312341747,
+        "avg_action_height_mean": 0.3666408259888131,
+        "width_dispersion_mean": 0.2865987439822768,
+        "possession_share_std": 0.07799147855680517,
+        "avg_pass_length_std": 0.7550175587621935,
+        "long_pass_ratio_std": 0.036994235248621776,
+        "forward_pass_ratio_std": 0.06504006547174734,
+        "circulation_tempo_std": 0.5623559492056565,
+        "zone_l0_w0_std": 0.006726292575349179,
+        "zone_l0_w1_std": 0.006868210405946255,
+        "zone_l0_w2_std": 0.0010761251327289084,
+        "zone_l0_w3_std": 0.0044678591848403195,
+        "zone_l0_w4_std": 0.0040196438781344435,
+        "zone_l1_w0_std": 0.000154169729641428,
+        "zone_l1_w1_std": 0.004370864984072529,
+        "zone_l1_w2_std": 0.0016774891774891786,
+        "zone_l1_w3_std": 0.004487258024993874,
+        "zone_l1_w4_std": 0.014036592338479129,
+        "zone_l2_w0_std": 0.01058564077432002,
+        "zone_l2_w1_std": 0.005132524707996409,
+        "zone_l2_w2_std": 0.0031803887935963407,
+        "zone_l2_w3_std": 0.0037960467205750206,
+        "zone_l2_w4_std": 0.01536796536796537,
+        "zone_l3_w0_std": 0.003487707261292168,
+        "zone_l3_w1_std": 0.0013252470799640613,
+        "zone_l3_w2_std": 0.009964877889406192,
+        "zone_l3_w3_std": 0.010016948460344689,
+        "zone_l3_w4_std": 0.00239320427999673,
+        "zone_l4_w0_std": 0.001721391815731439,
+        "zone_l4_w1_std": 0.0023615535407988234,
+        "zone_l4_w2_std": 0.008077064444988973,
+        "zone_l4_w3_std": 0.005210120068610634,
+        "zone_l4_w4_std": 0.002412603120150291,
+        "zone_l5_w0_std": 0.0027842440578289634,
+        "zone_l5_w1_std": 0.0011710773503226333,
+        "zone_l5_w2_std": 0.0011649514008004573,
+        "zone_l5_w3_std": 0.009958751939884014,
+        "zone_l5_w4_std": 0.004908927550436985,
+        "avg_action_height_std": 0.06038456032465263,
+        "width_dispersion_std": 0.00224899871062291
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.03529772114677775
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.04389344931797762
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.03915706934574859
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.0368210405946255
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.023149963244302865
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.00793004165645675
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.05146512292738708
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.04365657926978682
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.04203728661275831
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.029627133872416892
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.013075839255084539
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.014266315445560729
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.06797149391489014
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.047132034632034636
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.044847055460263005
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.03377440169893
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.011648493016417545
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.007168381932532875
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.033627378910397784
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.0490841705464347
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05096585804132974
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.03403067058727436
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.019789879931389365
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.012339704320836396
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.018599403740913175
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.05263007432818753
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.06082251082251083
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.04048844237523483
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.025031650739197907
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.009670832312341747
+        }
+      ],
+      "similar": [
+        {
+          "team": "FC K\u00f6ln",
+          "similarity": 0.2838745153038741
+        },
+        {
+          "team": "Wolfsburg",
+          "similarity": 0.17122125790460135
+        },
+        {
+          "team": "Borussia M\u00f6nchengladbach",
+          "similarity": 0.06496243723193412
+        },
+        {
+          "team": "Freiburg",
+          "similarity": 0.05485131073640128
+        },
+        {
+          "team": "Hoffenheim",
+          "similarity": 0.048122082147656856
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Borussia M\u00f6nchengladbach",
+      "team": "Borussia M\u00f6nchengladbach",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Borussia M\u00f6nchengladbach",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.3196231461049109,
+        "avg_pass_length_mean": 18.535317189183928,
+        "long_pass_ratio_mean": 0.1122927214028909,
+        "forward_pass_ratio_mean": 0.5782797710763813,
+        "circulation_tempo_mean": 11.33818109732852,
+        "zone_l0_w0_mean": 0.016461204682521723,
+        "zone_l0_w1_mean": 0.03895875314748363,
+        "zone_l0_w2_mean": 0.0571046024202847,
+        "zone_l0_w3_mean": 0.03627643257650046,
+        "zone_l0_w4_mean": 0.01713829531209029,
+        "zone_l1_w0_mean": 0.038418158241647724,
+        "zone_l1_w1_mean": 0.06407037432156237,
+        "zone_l1_w2_mean": 0.05494222279694106,
+        "zone_l1_w3_mean": 0.05412324845454513,
+        "zone_l1_w4_mean": 0.039294604467720554,
+        "zone_l2_w0_mean": 0.04890049102540616,
+        "zone_l2_w1_mean": 0.0512730022234435,
+        "zone_l2_w2_mean": 0.03793503521948871,
+        "zone_l2_w3_mean": 0.056049454555903974,
+        "zone_l2_w4_mean": 0.04980836718786481,
+        "zone_l3_w0_mean": 0.0374204822609439,
+        "zone_l3_w1_mean": 0.03674339163137534,
+        "zone_l3_w2_mean": 0.022864829721584642,
+        "zone_l3_w3_mean": 0.026665158029720144,
+        "zone_l3_w4_mean": 0.050983846808694055,
+        "zone_l4_w0_mean": 0.023101003243569434,
+        "zone_l4_w1_mean": 0.017437328706846698,
+        "zone_l4_w2_mean": 0.01848708858213271,
+        "zone_l4_w3_mean": 0.02405108532060331,
+        "zone_l4_w4_mean": 0.028224082874456262,
+        "zone_l5_w0_mean": 0.009973167814308343,
+        "zone_l5_w1_mean": 0.013301149078474265,
+        "zone_l5_w2_mean": 0.00671882240110346,
+        "zone_l5_w3_mean": 0.007700334414523145,
+        "zone_l5_w4_mean": 0.015573982478259463,
+        "avg_action_height_mean": 0.37861977368622945,
+        "width_dispersion_mean": 0.28037735830897126,
+        "possession_share_std": 0.0716935394796521,
+        "avg_pass_length_std": 0.3886063944107363,
+        "long_pass_ratio_std": 0.020283036172866673,
+        "forward_pass_ratio_std": 0.010097952894563056,
+        "circulation_tempo_std": 0.01032608022728887,
+        "zone_l0_w0_std": 0.012052033606683981,
+        "zone_l0_w1_std": 0.01603106355312737,
+        "zone_l0_w2_std": 0.0010964557807734976,
+        "zone_l0_w3_std": 0.011585074551809106,
+        "zone_l0_w4_std": 0.008319953160414804,
+        "zone_l1_w0_std": 0.0216633081534643,
+        "zone_l1_w1_std": 0.023506000423855145,
+        "zone_l1_w2_std": 0.02143252262057422,
+        "zone_l1_w3_std": 0.010031537696167707,
+        "zone_l1_w4_std": 0.0075485727216888145,
+        "zone_l2_w0_std": 0.016272625064206868,
+        "zone_l2_w1_std": 0.00982679411056872,
+        "zone_l2_w2_std": 0.0017798323976192295,
+        "zone_l2_w3_std": 0.009206277366494606,
+        "zone_l2_w4_std": 0.0039835199373556476,
+        "zone_l3_w0_std": 0.01196223378843881,
+        "zone_l3_w1_std": 0.008230153342169635,
+        "zone_l3_w2_std": 0.010644870454782199,
+        "zone_l3_w3_std": 0.010371879007316889,
+        "zone_l3_w4_std": 0.033672237847390596,
+        "zone_l4_w0_std": 0.013936033793467601,
+        "zone_l4_w1_std": 0.007254029317844661,
+        "zone_l4_w2_std": 0.012377108948731487,
+        "zone_l4_w3_std": 0.013867785931601274,
+        "zone_l4_w4_std": 0.014985793668753614,
+        "zone_l5_w0_std": 0.0058998480587075285,
+        "zone_l5_w1_std": 0.0009554700661285869,
+        "zone_l5_w2_std": 0.001427817110098169,
+        "zone_l5_w3_std": 0.004645344597822534,
+        "zone_l5_w4_std": 0.00029903339475640875,
+        "avg_action_height_std": 0.0517590141925585,
+        "width_dispersion_std": 0.002045153143008502
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.016461204682521723
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.038418158241647724
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.04890049102540616
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.0374204822609439
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.023101003243569434
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.009973167814308343
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.03895875314748363
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.06407037432156237
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.0512730022234435
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.03674339163137534
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.017437328706846698
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.013301149078474265
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.0571046024202847
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.05494222279694106
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.03793503521948871
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.022864829721584642
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.01848708858213271
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.00671882240110346
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.03627643257650046
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.05412324845454513
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.056049454555903974
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.026665158029720144
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.02405108532060331
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.007700334414523145
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.01713829531209029
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.039294604467720554
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.04980836718786481
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.050983846808694055
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.028224082874456262
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.015573982478259463
+        }
+      ],
+      "similar": [
+        {
+          "team": "Hoffenheim",
+          "similarity": 0.17372896932368656
+        },
+        {
+          "team": "Augsburg",
+          "similarity": 0.1250597755014773
+        },
+        {
+          "team": "FC K\u00f6ln",
+          "similarity": 0.08567973084091121
+        },
+        {
+          "team": "Borussia Dortmund",
+          "similarity": 0.06496243723193411
+        },
+        {
+          "team": "FC Heidenheim",
+          "similarity": 0.047679469526441316
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Darmstadt 98",
+      "team": "Darmstadt 98",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Darmstadt 98",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.29000423664691155,
+        "avg_pass_length_mean": 19.315880537189088,
+        "long_pass_ratio_mean": 0.14577522435120058,
+        "forward_pass_ratio_mean": 0.5593924326946398,
+        "circulation_tempo_mean": 9.493172837147569,
+        "zone_l0_w0_mean": 0.01661913607702572,
+        "zone_l0_w1_mean": 0.020783731456529134,
+        "zone_l0_w2_mean": 0.06260432746395961,
+        "zone_l0_w3_mean": 0.03343973208445619,
+        "zone_l0_w4_mean": 0.017687920253263913,
+        "zone_l1_w0_mean": 0.03169527223254232,
+        "zone_l1_w1_mean": 0.03458962350540279,
+        "zone_l1_w2_mean": 0.06190902906778996,
+        "zone_l1_w3_mean": 0.07498757227702049,
+        "zone_l1_w4_mean": 0.04706378692341906,
+        "zone_l2_w0_mean": 0.04504657125663902,
+        "zone_l2_w1_mean": 0.05230697783940766,
+        "zone_l2_w2_mean": 0.04175911148321604,
+        "zone_l2_w3_mean": 0.05480822061170561,
+        "zone_l2_w4_mean": 0.05994087020224484,
+        "zone_l3_w0_mean": 0.04942243792679417,
+        "zone_l3_w1_mean": 0.03906622014076032,
+        "zone_l3_w2_mean": 0.03567803040213495,
+        "zone_l3_w3_mean": 0.03366081473535491,
+        "zone_l3_w4_mean": 0.04186965280866539,
+        "zone_l4_w0_mean": 0.042282384029721884,
+        "zone_l4_w1_mean": 0.01518667748096596,
+        "zone_l4_w2_mean": 0.013432406268805108,
+        "zone_l4_w3_mean": 0.00957000078490882,
+        "zone_l4_w4_mean": 0.019149812930064625,
+        "zone_l5_w0_mean": 0.01441027184008791,
+        "zone_l5_w1_mean": 0.0063832709766882085,
+        "zone_l5_w2_mean": 0.0030958112032652206,
+        "zone_l5_w3_mean": 0.010437325030742264,
+        "zone_l5_w4_mean": 0.01111300070641794,
+        "avg_action_height_mean": 0.4060299751284544,
+        "width_dispersion_mean": 0.28044127103751487,
+        "possession_share_std": 0.030504700038941235,
+        "avg_pass_length_std": 0.12233907623172513,
+        "long_pass_ratio_std": 0.010906803298568996,
+        "forward_pass_ratio_std": 0.006397040989570696,
+        "circulation_tempo_std": 0.5971621988496962,
+        "zone_l0_w0_std": 0.005002485544595902,
+        "zone_l0_w1_std": 0.0005134611862588623,
+        "zone_l0_w2_std": 0.02388215902252689,
+        "zone_l0_w3_std": 0.004398105753381651,
+        "zone_l0_w4_std": 0.0012309986656550073,
+        "zone_l1_w0_std": 0.007493916956646872,
+        "zone_l1_w1_std": 0.011356322440543158,
+        "zone_l1_w2_std": 0.03673961958085869,
+        "zone_l1_w3_std": 0.01690431961487141,
+        "zone_l1_w4_std": 0.008341618481986343,
+        "zone_l2_w0_std": 0.000451976662044426,
+        "zone_l2_w1_std": 0.007712383244813057,
+        "zone_l2_w2_std": 0.00013278040867586126,
+        "zone_l2_w3_std": 0.0005971847936998009,
+        "zone_l2_w4_std": 0.005886816148190782,
+        "zone_l3_w0_std": 0.018341356845713086,
+        "zone_l3_w1_std": 0.009336490411030582,
+        "zone_l3_w2_std": 0.005948300672405224,
+        "zone_l3_w3_std": 0.014741895816435988,
+        "zone_l3_w4_std": 0.009437220376232963,
+        "zone_l4_w0_std": 0.027417519164857018,
+        "zone_l4_w1_std": 0.007078569372857852,
+        "zone_l4_w2_std": 0.0027838099474111096,
+        "zone_l4_w3_std": 0.00011054132544935933,
+        "zone_l4_w4_std": 0.006987650767902462,
+        "zone_l5_w0_std": 0.0049508123806284495,
+        "zone_l5_w1_std": 0.0023292169226341542,
+        "zone_l5_w2_std": 0.0017444598519138692,
+        "zone_l5_w3_std": 0.0017248371314199005,
+        "zone_l5_w4_std": 0.002400512807095576,
+        "avg_action_height_std": 0.0383172833571853,
+        "width_dispersion_std": 0.014972173791037324
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.01661913607702572
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.03169527223254232
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.04504657125663902
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.04942243792679417
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.042282384029721884
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.01441027184008791
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.020783731456529134
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.03458962350540279
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05230697783940766
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.03906622014076032
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.01518667748096596
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.0063832709766882085
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.06260432746395961
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.06190902906778996
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.04175911148321604
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.03567803040213495
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.013432406268805108
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.0030958112032652206
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.03343973208445619
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.07498757227702049
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05480822061170561
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.03366081473535491
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.00957000078490882
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.010437325030742264
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.017687920253263913
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.04706378692341906
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.05994087020224484
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.04186965280866539
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.019149812930064625
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.01111300070641794
+        }
+      ],
+      "similar": [
+        {
+          "team": "FC K\u00f6ln",
+          "similarity": 0.20613326247390612
+        },
+        {
+          "team": "Wolfsburg",
+          "similarity": 0.12553637074662802
+        },
+        {
+          "team": "Freiburg",
+          "similarity": 0.10693738496262674
+        },
+        {
+          "team": "FC Heidenheim",
+          "similarity": 0.08786453674657535
+        },
+        {
+          "team": "Union Berlin",
+          "similarity": 0.0754165761255352
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Eintracht Frankfurt",
+      "team": "Eintracht Frankfurt",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Eintracht Frankfurt",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.47459567143004733,
+        "avg_pass_length_mean": 18.405328084345605,
+        "long_pass_ratio_mean": 0.11178503659528327,
+        "forward_pass_ratio_mean": 0.5225723043559856,
+        "circulation_tempo_mean": 9.974656087508098,
+        "zone_l0_w0_mean": 0.013810096304366883,
+        "zone_l0_w1_mean": 0.020647135846068858,
+        "zone_l0_w2_mean": 0.05122839900425655,
+        "zone_l0_w3_mean": 0.025464789281147246,
+        "zone_l0_w4_mean": 0.010094843312335892,
+        "zone_l1_w0_mean": 0.020917083067212683,
+        "zone_l1_w1_mean": 0.036559063477949905,
+        "zone_l1_w2_mean": 0.03230391604363127,
+        "zone_l1_w3_mean": 0.04600686834785343,
+        "zone_l1_w4_mean": 0.024067742837701887,
+        "zone_l2_w0_mean": 0.055026097217178105,
+        "zone_l2_w1_mean": 0.051335543004401255,
+        "zone_l2_w2_mean": 0.05944196065171382,
+        "zone_l2_w3_mean": 0.07583812350502811,
+        "zone_l2_w4_mean": 0.058498188988101454,
+        "zone_l3_w0_mean": 0.045765794347527824,
+        "zone_l3_w1_mean": 0.0337051369286407,
+        "zone_l3_w2_mean": 0.04205054135549684,
+        "zone_l3_w3_mean": 0.05104298422478533,
+        "zone_l3_w4_mean": 0.04654676279014108,
+        "zone_l4_w0_mean": 0.02735233260837198,
+        "zone_l4_w1_mean": 0.029505648715176462,
+        "zone_l4_w2_mean": 0.016449734853386654,
+        "zone_l4_w3_mean": 0.028831824272707918,
+        "zone_l4_w4_mean": 0.03529177259312136,
+        "zone_l5_w0_mean": 0.01227703263995859,
+        "zone_l5_w1_mean": 0.009072800869397029,
+        "zone_l5_w2_mean": 0.008992442869288495,
+        "zone_l5_w3_mean": 0.014510706746871604,
+        "zone_l5_w4_mean": 0.017364633296180803,
+        "avg_action_height_mean": 0.5085044558537642,
+        "width_dispersion_mean": 0.27596263233569407,
+        "possession_share_std": 0.0859887904373796,
+        "avg_pass_length_std": 0.4942461012108277,
+        "long_pass_ratio_std": 0.017247221469232854,
+        "forward_pass_ratio_std": 0.01837062368371667,
+        "circulation_tempo_std": 0.9415306056398687,
+        "zone_l0_w0_std": 0.0016937796646253646,
+        "zone_l0_w1_std": 0.006915310321028471,
+        "zone_l0_w2_std": 0.011648431314434248,
+        "zone_l0_w3_std": 0.014156227084055163,
+        "zone_l0_w4_std": 0.002825053328490981,
+        "zone_l1_w0_std": 0.002338730886275689,
+        "zone_l1_w1_std": 0.0038286586545218243,
+        "zone_l1_w2_std": 0.006455773878849358,
+        "zone_l1_w3_std": 0.004811391772732272,
+        "zone_l1_w4_std": 0.0033959082123788883,
+        "zone_l2_w0_std": 9.879511701655491e-05,
+        "zone_l2_w1_std": 0.014986593085176697,
+        "zone_l2_w2_std": 0.005178394760240949,
+        "zone_l2_w3_std": 0.013822619629059129,
+        "zone_l2_w4_std": 0.004378641330589336,
+        "zone_l3_w0_std": 0.0026994722114382485,
+        "zone_l3_w1_std": 0.0018360585479344198,
+        "zone_l3_w2_std": 0.0015681985475726329,
+        "zone_l3_w3_std": 0.007115335645973962,
+        "zone_l3_w4_std": 0.004341767096773294,
+        "zone_l4_w0_std": 0.004957845097605402,
+        "zone_l4_w1_std": 0.002804528990800922,
+        "zone_l4_w2_std": 0.0069751439834469485,
+        "zone_l4_w3_std": 0.002175927665276578,
+        "zone_l4_w4_std": 0.008635875985690015,
+        "zone_l5_w0_std": 0.007109073983627839,
+        "zone_l5_w1_std": 0.0030435157703444893,
+        "zone_l5_w2_std": 0.005547137098401328,
+        "zone_l5_w3_std": 0.0024521365487665224,
+        "zone_l5_w4_std": 0.004444736655353931,
+        "avg_action_height_std": 0.021127086845960333,
+        "width_dispersion_std": 0.003951331898235946
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.013810096304366883
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.020917083067212683
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.055026097217178105
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.045765794347527824
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.02735233260837198
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.01227703263995859
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.020647135846068858
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.036559063477949905
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.051335543004401255
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.0337051369286407
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.029505648715176462
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.009072800869397029
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.05122839900425655
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.03230391604363127
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.05944196065171382
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.04205054135549684
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.016449734853386654
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.008992442869288495
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.025464789281147246
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.04600686834785343
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.07583812350502811
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.05104298422478533
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.028831824272707918
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.014510706746871604
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.010094843312335892
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.024067742837701887
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.058498188988101454
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.04654676279014108
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.03529177259312136
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.017364633296180803
+        }
+      ],
+      "similar": [
+        {
+          "team": "Bayern Munich",
+          "similarity": 0.39266678491822815
+        },
+        {
+          "team": "Werder Bremen",
+          "similarity": 0.2942072852542833
+        },
+        {
+          "team": "Bayer Leverkusen",
+          "similarity": 0.21076557996768636
+        },
+        {
+          "team": "VfB Stuttgart",
+          "similarity": 0.1987032286320369
+        },
+        {
+          "team": "RB Leipzig",
+          "similarity": 0.12709708096239453
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|FC Heidenheim",
+      "team": "FC Heidenheim",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "FC Heidenheim",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.3369719034143672,
+        "avg_pass_length_mean": 20.32434869229308,
+        "long_pass_ratio_mean": 0.16634841363102232,
+        "forward_pass_ratio_mean": 0.5705052878965923,
+        "circulation_tempo_mean": 9.08641894912384,
+        "zone_l0_w0_mean": 0.014736153840419743,
+        "zone_l0_w1_mean": 0.02919756221973034,
+        "zone_l0_w2_mean": 0.06490329066259447,
+        "zone_l0_w3_mean": 0.019443033445467817,
+        "zone_l0_w4_mean": 0.017560281603448587,
+        "zone_l1_w0_mean": 0.03778176052205897,
+        "zone_l1_w1_mean": 0.05085400047494758,
+        "zone_l1_w2_mean": 0.042992340139140474,
+        "zone_l1_w3_mean": 0.059417965584403834,
+        "zone_l1_w4_mean": 0.03449972365718156,
+        "zone_l2_w0_mean": 0.0370134316453526,
+        "zone_l2_w1_mean": 0.05066072023777196,
+        "zone_l2_w2_mean": 0.04320106149719238,
+        "zone_l2_w3_mean": 0.05878700943825202,
+        "zone_l2_w4_mean": 0.05523022711226547,
+        "zone_l3_w0_mean": 0.03283580976965043,
+        "zone_l3_w1_mean": 0.03466265410504861,
+        "zone_l3_w2_mean": 0.032240527937247285,
+        "zone_l3_w3_mean": 0.036728569587807264,
+        "zone_l3_w4_mean": 0.04656456358600332,
+        "zone_l4_w0_mean": 0.03013893814073996,
+        "zone_l4_w1_mean": 0.028785444028066633,
+        "zone_l4_w2_mean": 0.009561248537086911,
+        "zone_l4_w3_mean": 0.0239310750960278,
+        "zone_l4_w4_mean": 0.035858542294294984,
+        "zone_l5_w0_mean": 0.030220403364673486,
+        "zone_l5_w1_mean": 0.00709333145910073,
+        "zone_l5_w2_mean": 0.005164788706896644,
+        "zone_l5_w3_mean": 0.005027415976342073,
+        "zone_l5_w4_mean": 0.024908125330786082,
+        "avg_action_height_mean": 0.43618934949536536,
+        "width_dispersion_mean": 0.2852772147320527,
+        "possession_share_std": 0.04323287474262938,
+        "avg_pass_length_std": 0.34460510424111046,
+        "long_pass_ratio_std": 0.0075646298472385465,
+        "forward_pass_ratio_std": 0.016451233842538215,
+        "circulation_tempo_std": 0.804208016697086,
+        "zone_l0_w0_std": 0.006838819190863969,
+        "zone_l0_w1_std": 0.007479891933451961,
+        "zone_l0_w2_std": 0.010609114946898516,
+        "zone_l0_w3_std": 0.0032618036720050356,
+        "zone_l0_w4_std": 0.0007784454731425659,
+        "zone_l1_w0_std": 0.015076923404586117,
+        "zone_l1_w1_std": 0.01926466187672448,
+        "zone_l1_w2_std": 0.01633883569688973,
+        "zone_l1_w3_std": 0.0031494562063189343,
+        "zone_l1_w4_std": 0.010807719708514237,
+        "zone_l2_w0_std": 0.009372760371907384,
+        "zone_l2_w1_std": 0.003276712340437313,
+        "zone_l2_w2_std": 0.002208612737753324,
+        "zone_l2_w3_std": 0.0005441663977781789,
+        "zone_l2_w4_std": 0.009922783746569672,
+        "zone_l3_w0_std": 0.00815663898978863,
+        "zone_l3_w1_std": 0.008772686467508152,
+        "zone_l3_w2_std": 0.005271811648142645,
+        "zone_l3_w3_std": 0.00868110464713844,
+        "zone_l3_w4_std": 0.007729612129692637,
+        "zone_l4_w0_std": 0.005459767360878162,
+        "zone_l4_w1_std": 0.0018167277389619955,
+        "zone_l4_w2_std": 0.005246253930830168,
+        "zone_l4_w3_std": 0.00667109667100083,
+        "zone_l4_w4_std": 0.028307301733345683,
+        "zone_l5_w0_std": 0.004330435727133029,
+        "zone_l5_w1_std": 0.0027783368528439883,
+        "zone_l5_w2_std": 0.00022895455092428445,
+        "zone_l5_w3_std": 0.0028699186732137017,
+        "zone_l5_w4_std": 0.019514382072965155,
+        "avg_action_height_std": 0.03641391659493244,
+        "width_dispersion_std": 0.0008208864357923812
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.014736153840419743
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.03778176052205897
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.0370134316453526
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.03283580976965043
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.03013893814073996
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.030220403364673486
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.02919756221973034
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.05085400047494758
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05066072023777196
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.03466265410504861
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.028785444028066633
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.00709333145910073
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.06490329066259447
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.042992340139140474
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.04320106149719238
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.032240527937247285
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.009561248537086911
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.005164788706896644
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.019443033445467817
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.059417965584403834
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05878700943825202
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.036728569587807264
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.0239310750960278
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.005027415976342073
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.017560281603448587
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.03449972365718156
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.05523022711226547
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.04656456358600332
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.035858542294294984
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.024908125330786082
+        }
+      ],
+      "similar": [
+        {
+          "team": "FSV Mainz 05",
+          "similarity": 0.17460084848206478
+        },
+        {
+          "team": "FC K\u00f6ln",
+          "similarity": 0.14384539510503339
+        },
+        {
+          "team": "Darmstadt 98",
+          "similarity": 0.08786453674657538
+        },
+        {
+          "team": "Borussia M\u00f6nchengladbach",
+          "similarity": 0.04767946952644132
+        },
+        {
+          "team": "Hoffenheim",
+          "similarity": 0.02194817021798154
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|FC K\u00f6ln",
+      "team": "FC K\u00f6ln",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "FC K\u00f6ln",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.2837752664473365,
+        "avg_pass_length_mean": 19.828365928260325,
+        "long_pass_ratio_mean": 0.1606907401857956,
+        "forward_pass_ratio_mean": 0.5452951753071621,
+        "circulation_tempo_mean": 10.12125094310749,
+        "zone_l0_w0_mean": 0.022438849394900026,
+        "zone_l0_w1_mean": 0.03703226467724341,
+        "zone_l0_w2_mean": 0.08053942850449158,
+        "zone_l0_w3_mean": 0.030830447547020627,
+        "zone_l0_w4_mean": 0.025542320391832435,
+        "zone_l1_w0_mean": 0.051129300309688194,
+        "zone_l1_w1_mean": 0.0425985987158556,
+        "zone_l1_w2_mean": 0.039768209738705165,
+        "zone_l1_w3_mean": 0.07223714940441764,
+        "zone_l1_w4_mean": 0.045741604375169304,
+        "zone_l2_w0_mean": 0.06257458506907584,
+        "zone_l2_w1_mean": 0.042866555871995546,
+        "zone_l2_w2_mean": 0.035756173630380195,
+        "zone_l2_w3_mean": 0.05167033948561012,
+        "zone_l2_w4_mean": 0.07885115199613438,
+        "zone_l3_w0_mean": 0.04018039520019914,
+        "zone_l3_w1_mean": 0.02649554502924833,
+        "zone_l3_w2_mean": 0.028729985577169465,
+        "zone_l3_w3_mean": 0.028501563083410817,
+        "zone_l3_w4_mean": 0.049257260833595676,
+        "zone_l4_w0_mean": 0.020477490866760865,
+        "zone_l4_w1_mean": 0.01459341528234338,
+        "zone_l4_w2_mean": 0.00843625767814392,
+        "zone_l4_w3_mean": 0.013908147801067437,
+        "zone_l4_w4_mean": 0.022344405479211356,
+        "zone_l5_w0_mean": 0.008118516132338622,
+        "zone_l5_w1_mean": 0.0031927900489790544,
+        "zone_l5_w2_mean": 0.0017329360343805137,
+        "zone_l5_w3_mean": 0.0027359450614617576,
+        "zone_l5_w4_mean": 0.011718366779169626,
+        "avg_action_height_mean": 0.3960911826268969,
+        "width_dispersion_mean": 0.29713180358820696,
+        "possession_share_std": 0.06078963246857324,
+        "avg_pass_length_std": 0.3726445789432766,
+        "long_pass_ratio_std": 0.02547947258016183,
+        "forward_pass_ratio_std": 0.01853461192688044,
+        "circulation_tempo_std": 0.9570809272750722,
+        "zone_l0_w0_std": 0.002378668853275155,
+        "zone_l0_w1_std": 0.0009239397023186324,
+        "zone_l0_w2_std": 0.0017073117161704142,
+        "zone_l0_w3_std": 0.002746194788745799,
+        "zone_l0_w4_std": 0.009494175958532532,
+        "zone_l1_w0_std": 0.016023984361844656,
+        "zone_l1_w1_std": 0.008496291795093308,
+        "zone_l1_w2_std": 0.0003521513445445823,
+        "zone_l1_w3_std": 0.008003572762081867,
+        "zone_l1_w4_std": 0.0034058379518116383,
+        "zone_l2_w0_std": 0.01041811566085116,
+        "zone_l2_w1_std": 0.009289913536229122,
+        "zone_l2_w2_std": 0.00365988476378039,
+        "zone_l2_w3_std": 0.0034951570038582926,
+        "zone_l2_w4_std": 0.0043985972516088385,
+        "zone_l3_w0_std": 0.005075079252355607,
+        "zone_l3_w1_std": 0.004597734810270226,
+        "zone_l3_w2_std": 0.005372321343592823,
+        "zone_l3_w3_std": 0.006603752864432714,
+        "zone_l3_w4_std": 0.009136899750345928,
+        "zone_l4_w0_std": 0.001420319352217237,
+        "zone_l4_w1_std": 0.0014547291509565186,
+        "zone_l4_w2_std": 0.00259684161974976,
+        "zone_l4_w3_std": 0.005149023713476195,
+        "zone_l4_w4_std": 0.007745865333225955,
+        "zone_l5_w0_std": 0.002100461969851159,
+        "zone_l5_w1_std": 0.0011867719948165665,
+        "zone_l5_w2_std": 0.00027308201978197365,
+        "zone_l5_w3_std": 0.0012760910468632173,
+        "zone_l5_w4_std": 0.007338804735374006,
+        "avg_action_height_std": 0.036509549973835695,
+        "width_dispersion_std": 0.00849240078209329
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.022438849394900026
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.051129300309688194
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.06257458506907584
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.04018039520019914
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.020477490866760865
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.008118516132338622
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.03703226467724341
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.0425985987158556
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.042866555871995546
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.02649554502924833
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.01459341528234338
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.0031927900489790544
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.08053942850449158
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.039768209738705165
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.035756173630380195
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.028729985577169465
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.00843625767814392
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.0017329360343805137
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.030830447547020627
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.07223714940441764
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05167033948561012
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.028501563083410817
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.013908147801067437
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.0027359450614617576
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.025542320391832435
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.045741604375169304
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.07885115199613438
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.049257260833595676
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.022344405479211356
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.011718366779169626
+        }
+      ],
+      "similar": [
+        {
+          "team": "Union Berlin",
+          "similarity": 0.3393932476524837
+        },
+        {
+          "team": "Borussia Dortmund",
+          "similarity": 0.283874515303874
+        },
+        {
+          "team": "Darmstadt 98",
+          "similarity": 0.2061332624739061
+        },
+        {
+          "team": "FC Heidenheim",
+          "similarity": 0.1438453951050333
+        },
+        {
+          "team": "Wolfsburg",
+          "similarity": 0.09466369714944319
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|FSV Mainz 05",
+      "team": "FSV Mainz 05",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "FSV Mainz 05",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.3957975139450317,
+        "avg_pass_length_mean": 17.940234184320772,
+        "long_pass_ratio_mean": 0.11157578359811078,
+        "forward_pass_ratio_mean": 0.5675525976814084,
+        "circulation_tempo_mean": 9.348005307710647,
+        "zone_l0_w0_mean": 0.009589215726966019,
+        "zone_l0_w1_mean": 0.022798784091201063,
+        "zone_l0_w2_mean": 0.039888607574922075,
+        "zone_l0_w3_mean": 0.031255496986910006,
+        "zone_l0_w4_mean": 0.016254281473400016,
+        "zone_l1_w0_mean": 0.04140157601702905,
+        "zone_l1_w1_mean": 0.040621868570378236,
+        "zone_l1_w2_mean": 0.04660011977255074,
+        "zone_l1_w3_mean": 0.03487584962417903,
+        "zone_l1_w4_mean": 0.04144802246822371,
+        "zone_l2_w0_mean": 0.05126008233868752,
+        "zone_l2_w1_mean": 0.05758174081299078,
+        "zone_l2_w2_mean": 0.0542306787704142,
+        "zone_l2_w3_mean": 0.05527028869928195,
+        "zone_l2_w4_mean": 0.05449058125263114,
+        "zone_l3_w0_mean": 0.04660011977255074,
+        "zone_l3_w1_mean": 0.030169440606847592,
+        "zone_l3_w2_mean": 0.028814093632092717,
+        "zone_l3_w3_mean": 0.0422000596886309,
+        "zone_l3_w4_mean": 0.058352554258348996,
+        "zone_l4_w0_mean": 0.02306807468589352,
+        "zone_l4_w1_mean": 0.01796242383276115,
+        "zone_l4_w2_mean": 0.015038273852229132,
+        "zone_l4_w3_mean": 0.028294288667658842,
+        "zone_l4_w4_mean": 0.0408170424876324,
+        "zone_l5_w0_mean": 0.016783474550309412,
+        "zone_l5_w1_mean": 0.010461816076006158,
+        "zone_l5_w2_mean": 0.01138086287624096,
+        "zone_l5_w3_mean": 0.01020191359378922,
+        "zone_l5_w4_mean": 0.022288367239242705,
+        "avg_action_height_mean": 0.48673570728941123,
+        "width_dispersion_mean": 0.29320143694846357,
+        "possession_share_std": 0.05693259525933643,
+        "avg_pass_length_std": 0.3634494294890276,
+        "long_pass_ratio_std": 0.01981107771575784,
+        "forward_pass_ratio_std": 0.0018591670244740566,
+        "circulation_tempo_std": 0.7460714506243531,
+        "zone_l0_w0_std": 0.0017358125856047624,
+        "zone_l0_w1_std": 0.0009837753651975754,
+        "zone_l0_w2_std": 0.00025100848092434076,
+        "zone_l0_w3_std": 0.0015870851195452576,
+        "zone_l0_w4_std": 0.0075282779829986225,
+        "zone_l1_w0_std": 0.015223565545824859,
+        "zone_l1_w1_std": 0.009208256004933206,
+        "zone_l1_w2_std": 0.0020975019715036222,
+        "zone_l1_w3_std": 0.0009007646864666891,
+        "zone_l1_w4_std": 0.011779610600858963,
+        "zone_l2_w0_std": 0.00763006488668054,
+        "zone_l2_w1_std": 0.006970920568662678,
+        "zone_l2_w2_std": 0.00012945712992554897,
+        "zone_l2_w3_std": 0.008149869851114417,
+        "zone_l2_w4_std": 0.0021345603102227648,
+        "zone_l3_w0_std": 0.0020975019715036222,
+        "zone_l3_w1_std": 0.0029893726566777162,
+        "zone_l3_w2_std": 0.0017634828118483908,
+        "zone_l3_w3_std": 0.0014299577633760854,
+        "zone_l3_w4_std": 0.028907480645664965,
+        "zone_l4_w0_std": 0.008345537879551505,
+        "zone_l4_w1_std": 0.002107384195162058,
+        "zone_l4_w2_std": 0.0019492686166270382,
+        "zone_l4_w3_std": 0.002246723548746044,
+        "zone_l4_w4_std": 0.015901980199976677,
+        "zone_l5_w0_std": 0.00020406791854675824,
+        "zone_l5_w1_std": 0.0008632122365646224,
+        "zone_l5_w2_std": 0.003453343057441414,
+        "zone_l5_w3_std": 0.0011418909437325938,
+        "zone_l5_w4_std": 0.014360847420443157,
+        "avg_action_height_std": 0.037109921125889234,
+        "width_dispersion_std": 0.00048091516708849424
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.009589215726966019
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.04140157601702905
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.05126008233868752
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.04660011977255074
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.02306807468589352
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.016783474550309412
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.022798784091201063
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.040621868570378236
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05758174081299078
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.030169440606847592
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.01796242383276115
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.010461816076006158
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.039888607574922075
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.04660011977255074
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.0542306787704142
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.028814093632092717
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.015038273852229132
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.01138086287624096
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.031255496986910006
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.03487584962417903
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05527028869928195
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.0422000596886309
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.028294288667658842
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.01020191359378922
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.016254281473400016
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.04144802246822371
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.05449058125263114
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.058352554258348996
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.0408170424876324
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.022288367239242705
+        }
+      ],
+      "similar": [
+        {
+          "team": "FC Heidenheim",
+          "similarity": 0.17460084848206478
+        },
+        {
+          "team": "Bayern Munich",
+          "similarity": 0.13122542787066885
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "similarity": 0.12285043341686713
+        },
+        {
+          "team": "FC K\u00f6ln",
+          "similarity": 0.09376076096169148
+        },
+        {
+          "team": "RB Leipzig",
+          "similarity": 0.06658362145939027
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Freiburg",
+      "team": "Freiburg",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Freiburg",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.30365173817726276,
+        "avg_pass_length_mean": 20.55710833661594,
+        "long_pass_ratio_mean": 0.165884237654106,
+        "forward_pass_ratio_mean": 0.6221564393675558,
+        "circulation_tempo_mean": 9.358697551852863,
+        "zone_l0_w0_mean": 0.0166094037698601,
+        "zone_l0_w1_mean": 0.030518593041134374,
+        "zone_l0_w2_mean": 0.0472482172573287,
+        "zone_l0_w3_mean": 0.05258537233537708,
+        "zone_l0_w4_mean": 0.020986377125212757,
+        "zone_l1_w0_mean": 0.03765430927026189,
+        "zone_l1_w1_mean": 0.03549666862815816,
+        "zone_l1_w2_mean": 0.042271723518283,
+        "zone_l1_w3_mean": 0.04125301342039825,
+        "zone_l1_w4_mean": 0.04245205418778433,
+        "zone_l2_w0_mean": 0.0430499927234993,
+        "zone_l2_w1_mean": 0.05851730225318426,
+        "zone_l2_w2_mean": 0.036694127547566166,
+        "zone_l2_w3_mean": 0.05276412115690034,
+        "zone_l2_w4_mean": 0.042993046196288354,
+        "zone_l3_w0_mean": 0.03819213758280974,
+        "zone_l3_w1_mean": 0.027280550230000696,
+        "zone_l3_w2_mean": 0.03789475016293034,
+        "zone_l3_w3_mean": 0.0491638351587859,
+        "zone_l3_w4_mean": 0.05252684396018805,
+        "zone_l4_w0_mean": 0.026320368507304976,
+        "zone_l4_w1_mean": 0.018825572787152862,
+        "zone_l4_w2_mean": 0.020206526072018373,
+        "zone_l4_w3_mean": 0.02974032383591807,
+        "zone_l4_w4_mean": 0.03339913820922154,
+        "zone_l5_w0_mean": 0.019546895465158216,
+        "zone_l5_w1_mean": 0.01007320792442563,
+        "zone_l5_w2_mean": 0.008034205880678044,
+        "zone_l5_w3_mean": 0.016908373037717583,
+        "zone_l5_w4_mean": 0.010792948754452903,
+        "avg_action_height_mean": 0.40264266907752827,
+        "width_dispersion_mean": 0.2810791113103538,
+        "possession_share_std": 0.012038834951456301,
+        "avg_pass_length_std": 1.3971262140243228,
+        "long_pass_ratio_std": 0.025952497039771538,
+        "forward_pass_ratio_std": 0.0058299087553110585,
+        "circulation_tempo_std": 0.514962107046157,
+        "zone_l0_w0_std": 0.005818036863385281,
+        "zone_l0_w1_std": 0.005452629980448358,
+        "zone_l0_w2_std": 0.0028837088640433287,
+        "zone_l0_w3_std": 0.009419904709477797,
+        "zone_l0_w4_std": 0.005398847149193573,
+        "zone_l1_w0_std": 0.0007149952860930221,
+        "zone_l1_w1_std": 0.006719690210891971,
+        "zone_l1_w2_std": 0.0039024189619280836,
+        "zone_l1_w3_std": 0.008878912700973787,
+        "zone_l1_w4_std": 0.007679871933587693,
+        "zone_l2_w0_std": 0.006110678739330437,
+        "zone_l2_w1_std": 0.02421651069645603,
+        "zone_l2_w2_std": 0.007670380845719206,
+        "zone_l2_w3_std": 6.327391912329394e-06,
+        "zone_l2_w4_std": 0.01901223084856653,
+        "zone_l3_w0_std": 0.015764696949564356,
+        "zone_l3_w1_std": 0.007491632024195945,
+        "zone_l3_w2_std": 0.00432160867611979,
+        "zone_l3_w3_std": 0.022778610884379564,
+        "zone_l3_w4_std": 0.02135178400814968,
+        "zone_l4_w0_std": 0.014447017583822127,
+        "zone_l4_w1_std": 0.013548527932271598,
+        "zone_l4_w2_std": 0.0022209145612270076,
+        "zone_l4_w3_std": 0.0045604677208101576,
+        "zone_l4_w4_std": 0.015413526698430173,
+        "zone_l5_w0_std": 0.0015612839543668496,
+        "zone_l5_w1_std": 0.0004808817853369021,
+        "zone_l5_w2_std": 0.002757161025796777,
+        "zone_l5_w3_std": 0.0010772384730737827,
+        "zone_l5_w4_std": 0.002399663382750265,
+        "avg_action_height_std": 0.014395672080531274,
+        "width_dispersion_std": 0.005942056393421033
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.0166094037698601
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.03765430927026189
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.0430499927234993
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.03819213758280974
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.026320368507304976
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.019546895465158216
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.030518593041134374
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.03549666862815816
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05851730225318426
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.027280550230000696
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.018825572787152862
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.01007320792442563
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.0472482172573287
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.042271723518283
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.036694127547566166
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.03789475016293034
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.020206526072018373
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.008034205880678044
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.05258537233537708
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.04125301342039825
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.05276412115690034
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.0491638351587859
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.02974032383591807
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.016908373037717583
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.020986377125212757
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.04245205418778433
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.042993046196288354
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.05252684396018805
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.03339913820922154
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.010792948754452903
+        }
+      ],
+      "similar": [
+        {
+          "team": "Augsburg",
+          "similarity": 0.13824976882395307
+        },
+        {
+          "team": "Darmstadt 98",
+          "similarity": 0.10693738496262681
+        },
+        {
+          "team": "Borussia Dortmund",
+          "similarity": 0.05485131073640125
+        },
+        {
+          "team": "Bayern Munich",
+          "similarity": 0.020911406466335325
+        },
+        {
+          "team": "Borussia M\u00f6nchengladbach",
+          "similarity": 0.020264451240203204
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Hoffenheim",
+      "team": "Hoffenheim",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Hoffenheim",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.3896535279862563,
+        "avg_pass_length_mean": 19.93867474683972,
+        "long_pass_ratio_mean": 0.1496951507703942,
+        "forward_pass_ratio_mean": 0.5666138891514636,
+        "circulation_tempo_mean": 9.8851580930029,
+        "zone_l0_w0_mean": 0.02323518616695893,
+        "zone_l0_w1_mean": 0.0420182271264802,
+        "zone_l0_w2_mean": 0.07031942545487327,
+        "zone_l0_w3_mean": 0.03061285815165948,
+        "zone_l0_w4_mean": 0.015414821667357088,
+        "zone_l1_w0_mean": 0.03887591516616262,
+        "zone_l1_w1_mean": 0.0581107707893771,
+        "zone_l1_w2_mean": 0.06026037832234025,
+        "zone_l1_w3_mean": 0.034063176782950816,
+        "zone_l1_w4_mean": 0.0329245179749259,
+        "zone_l2_w0_mean": 0.047780205581037946,
+        "zone_l2_w1_mean": 0.05012835399947199,
+        "zone_l2_w2_mean": 0.043608700598198324,
+        "zone_l2_w3_mean": 0.04297658934661805,
+        "zone_l2_w4_mean": 0.034243473370837885,
+        "zone_l3_w0_mean": 0.03659162178927192,
+        "zone_l3_w1_mean": 0.0351562248470162,
+        "zone_l3_w2_mean": 0.03409054322932653,
+        "zone_l3_w3_mean": 0.04256126327809246,
+        "zone_l3_w4_mean": 0.03809999592186289,
+        "zone_l4_w0_mean": 0.02794972730141082,
+        "zone_l4_w1_mean": 0.026667260500666454,
+        "zone_l4_w2_mean": 0.016715532765685267,
+        "zone_l4_w3_mean": 0.02367787868186023,
+        "zone_l4_w4_mean": 0.02983693890735975,
+        "zone_l5_w0_mean": 0.020950892790068232,
+        "zone_l5_w1_mean": 0.009509035220079889,
+        "zone_l5_w2_mean": 0.004650686092908549,
+        "zone_l5_w3_mean": 0.009509035220079889,
+        "zone_l5_w4_mean": 0.019460762955061075,
+        "avg_action_height_mean": 0.39244277686403506,
+        "width_dispersion_mean": 0.2770406971867541,
+        "possession_share_std": 0.08874855061069072,
+        "avg_pass_length_std": 0.8449931191162889,
+        "long_pass_ratio_std": 0.008755553454957939,
+        "forward_pass_ratio_std": 0.007329772820367397,
+        "circulation_tempo_std": 0.0497845267042627,
+        "zone_l0_w0_std": 0.007106153908894418,
+        "zone_l0_w1_std": 0.017400230522065938,
+        "zone_l0_w2_std": 0.027025707288489565,
+        "zone_l0_w3_std": 0.013634929458959989,
+        "zone_l0_w4_std": 0.006076960886372368,
+        "zone_l1_w0_std": 0.009164539953938516,
+        "zone_l1_w1_std": 0.0114214668844535,
+        "zone_l1_w2_std": 0.0016865243325270077,
+        "zone_l1_w3_std": 0.004986059210258019,
+        "zone_l1_w4_std": 0.017644382151496354,
+        "zone_l2_w0_std": 0.0027886945453842998,
+        "zone_l2_w1_std": 0.003352121382531407,
+        "zone_l2_w2_std": 0.013267360522344973,
+        "zone_l2_w3_std": 0.013899471773925252,
+        "zone_l2_w4_std": 0.0036832017239788037,
+        "zone_l3_w0_std": 0.002457614203936906,
+        "zone_l3_w1_std": 0.014928664796447298,
+        "zone_l3_w2_std": 0.012598760675597074,
+        "zone_l3_w3_std": 0.01601259071172078,
+        "zone_l3_w4_std": 0.010287100852330653,
+        "zone_l4_w0_std": 0.010250612257163033,
+        "zone_l4_w1_std": 0.006439700450097553,
+        "zone_l4_w2_std": 0.0028090852309191477,
+        "zone_l4_w3_std": 0.001606571381350893,
+        "zone_l4_w4_std": 0.005816711347309181,
+        "zone_l5_w0_std": 0.0045160002489810025,
+        "zone_l5_w1_std": 0.0018689673083651175,
+        "zone_l5_w2_std": 0.0004062039197336763,
+        "zone_l5_w3_std": 0.0018689673083651175,
+        "zone_l5_w4_std": 0.0017616479108132875,
+        "avg_action_height_std": 0.07905461896929827,
+        "width_dispersion_std": 0.004725474391088835
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.02323518616695893
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.03887591516616262
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.047780205581037946
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.03659162178927192
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.02794972730141082
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.020950892790068232
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.0420182271264802
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.0581107707893771
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05012835399947199
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.0351562248470162
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.026667260500666454
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.009509035220079889
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.07031942545487327
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.06026037832234025
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.043608700598198324
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.03409054322932653
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.016715532765685267
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.004650686092908549
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.03061285815165948
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.034063176782950816
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.04297658934661805
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.04256126327809246
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.02367787868186023
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.009509035220079889
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.015414821667357088
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.0329245179749259
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.034243473370837885
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.03809999592186289
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.02983693890735975
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.019460762955061075
+        }
+      ],
+      "similar": [
+        {
+          "team": "Wolfsburg",
+          "similarity": 0.23001150305074572
+        },
+        {
+          "team": "Borussia M\u00f6nchengladbach",
+          "similarity": 0.17372896932368653
+        },
+        {
+          "team": "Borussia Dortmund",
+          "similarity": 0.048122082147656856
+        },
+        {
+          "team": "FC Heidenheim",
+          "similarity": 0.02194817021798154
+        },
+        {
+          "team": "Bochum",
+          "similarity": 0.009653986729671373
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|RB Leipzig",
+      "team": "RB Leipzig",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "RB Leipzig",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.47946362714364743,
+        "avg_pass_length_mean": 19.505593889530676,
+        "long_pass_ratio_mean": 0.13021900614754098,
+        "forward_pass_ratio_mean": 0.5398309426229508,
+        "circulation_tempo_mean": 9.693951024108184,
+        "zone_l0_w0_mean": 0.02680638772698915,
+        "zone_l0_w1_mean": 0.023347904184095165,
+        "zone_l0_w2_mean": 0.050059037067741896,
+        "zone_l0_w3_mean": 0.024282657756675166,
+        "zone_l0_w4_mean": 0.010647607323946021,
+        "zone_l1_w0_mean": 0.045577872404567205,
+        "zone_l1_w1_mean": 0.0611734977997178,
+        "zone_l1_w2_mean": 0.04258938253926384,
+        "zone_l1_w3_mean": 0.033996558264561424,
+        "zone_l1_w4_mean": 0.035024473167443365,
+        "zone_l2_w0_mean": 0.06360406643972985,
+        "zone_l2_w1_mean": 0.05454438875699757,
+        "zone_l2_w2_mean": 0.05295645911578383,
+        "zone_l2_w3_mean": 0.047821071627455164,
+        "zone_l2_w4_mean": 0.048007394288059016,
+        "zone_l3_w0_mean": 0.03866718585790071,
+        "zone_l3_w1_mean": 0.03708030297320722,
+        "zone_l3_w2_mean": 0.035677649236077094,
+        "zone_l3_w3_mean": 0.03745399505093518,
+        "zone_l3_w4_mean": 0.04698157289821758,
+        "zone_l4_w0_mean": 0.044169984884835846,
+        "zone_l4_w1_mean": 0.02586849388484841,
+        "zone_l4_w2_mean": 0.009993384498792043,
+        "zone_l4_w3_mean": 0.024936880581829142,
+        "zone_l4_w4_mean": 0.022043645559868194,
+        "zone_l5_w0_mean": 0.016808816202116123,
+        "zone_l5_w1_mean": 0.012793458190451069,
+        "zone_l5_w2_mean": 0.00859177751818216,
+        "zone_l5_w3_mean": 0.00793860144954843,
+        "zone_l5_w4_mean": 0.010555492750164342,
+        "avg_action_height_mean": 0.45338553215077604,
+        "width_dispersion_mean": 0.2851393085850069,
+        "possession_share_std": 0.08103102526276969,
+        "avg_pass_length_std": 0.35161920892353393,
+        "long_pass_ratio_std": 0.009125256147540978,
+        "forward_pass_ratio_std": 0.007044057377049162,
+        "circulation_tempo_std": 0.07838437941057208,
+        "zone_l0_w0_std": 0.005331130957614734,
+        "zone_l0_w1_std": 0.004663300297697554,
+        "zone_l0_w2_std": 0.00596337189584354,
+        "zone_l0_w3_std": 0.0018611330929980373,
+        "zone_l0_w4_std": 0.0013105391633484488,
+        "zone_l1_w0_std": 0.0007599452336988586,
+        "zone_l1_w1_std": 0.005119686140524967,
+        "zone_l1_w2_std": 0.0015062826326345188,
+        "zone_l1_w3_std": 0.0003831128864101672,
+        "zone_l1_w4_std": 0.0023447346053518583,
+        "zone_l2_w0_std": 0.0029131233958456324,
+        "zone_l2_w1_std": 0.002256807057651161,
+        "zone_l2_w2_std": 0.0016025842324971853,
+        "zone_l2_w3_std": 0.0067379717208258475,
+        "zone_l2_w4_std": 0.005056880749310185,
+        "zone_l3_w0_std": 0.0031863268476299347,
+        "zone_l3_w1_std": 0.00626797804323523,
+        "zone_l3_w2_std": 0.0001967902258063186,
+        "zone_l3_w3_std": 0.0066416701209631845,
+        "zone_l3_w4_std": 0.010567007071887048,
+        "zone_l4_w0_std": 0.02399061268752643,
+        "zone_l4_w1_std": 0.00867865830936261,
+        "zone_l4_w2_std": 0.0002773904778652866,
+        "zone_l4_w3_std": 0.0002732034517843032,
+        "zone_l4_w4_std": 0.007104336502912077,
+        "zone_l5_w0_std": 0.00933497464755708,
+        "zone_l5_w1_std": 0.006814384946803833,
+        "zone_l5_w2_std": 0.002612704274534926,
+        "zone_l5_w3_std": 0.00046475989498938547,
+        "zone_l5_w4_std": 0.005886958669865555,
+        "avg_action_height_std": 0.0024099223946784654,
+        "width_dispersion_std": 0.004189593691061311
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.02680638772698915
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.045577872404567205
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.06360406643972985
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.03866718585790071
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.044169984884835846
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.016808816202116123
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.023347904184095165
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.0611734977997178
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05454438875699757
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.03708030297320722
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.02586849388484841
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.012793458190451069
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.050059037067741896
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.04258938253926384
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.05295645911578383
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.035677649236077094
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.009993384498792043
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.00859177751818216
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.024282657756675166
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.033996558264561424
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.047821071627455164
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.03745399505093518
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.024936880581829142
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.00793860144954843
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.010647607323946021
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.035024473167443365
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.048007394288059016
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.04698157289821758
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.022043645559868194
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.010555492750164342
+        }
+      ],
+      "similar": [
+        {
+          "team": "Union Berlin",
+          "similarity": 0.17407749298915548
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "similarity": 0.12709708096239453
+        },
+        {
+          "team": "VfB Stuttgart",
+          "similarity": 0.09950457485948097
+        },
+        {
+          "team": "Werder Bremen",
+          "similarity": 0.06971680058907669
+        },
+        {
+          "team": "FSV Mainz 05",
+          "similarity": 0.06658362145939024
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Union Berlin",
+      "team": "Union Berlin",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Union Berlin",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.3247795919285139,
+        "avg_pass_length_mean": 19.809159355733506,
+        "long_pass_ratio_mean": 0.1528677436375271,
+        "forward_pass_ratio_mean": 0.5620979601917442,
+        "circulation_tempo_mean": 9.920822071139202,
+        "zone_l0_w0_mean": 0.013187319349851859,
+        "zone_l0_w1_mean": 0.033191529332944024,
+        "zone_l0_w2_mean": 0.0683907226458612,
+        "zone_l0_w3_mean": 0.022971569033537267,
+        "zone_l0_w4_mean": 0.017143798083778663,
+        "zone_l1_w0_mean": 0.04820204297351559,
+        "zone_l1_w1_mean": 0.062282286156624955,
+        "zone_l1_w2_mean": 0.04617570568144008,
+        "zone_l1_w3_mean": 0.055155305370897245,
+        "zone_l1_w4_mean": 0.0490949668067731,
+        "zone_l2_w0_mean": 0.05791952141998656,
+        "zone_l2_w1_mean": 0.05032740540552775,
+        "zone_l2_w2_mean": 0.03473405808418608,
+        "zone_l2_w3_mean": 0.04225940286143044,
+        "zone_l2_w4_mean": 0.0575211574284699,
+        "zone_l3_w0_mean": 0.05266383285009066,
+        "zone_l3_w1_mean": 0.03525804253893668,
+        "zone_l3_w2_mean": 0.024746665399144874,
+        "zone_l3_w3_mean": 0.028411727292686623,
+        "zone_l3_w4_mean": 0.039203769971956084,
+        "zone_l4_w0_mean": 0.04472145076922729,
+        "zone_l4_w1_mean": 0.01701817762054472,
+        "zone_l4_w2_mean": 0.005488256184261454,
+        "zone_l4_w3_mean": 0.016571715703915964,
+        "zone_l4_w4_mean": 0.024997906325612766,
+        "zone_l5_w0_mean": 0.020886382515442264,
+        "zone_l5_w1_mean": 0.010404429988660207,
+        "zone_l5_w2_mean": 0.004993696342520603,
+        "zone_l5_w3_mean": 0.005982816026002305,
+        "zone_l5_w4_mean": 0.010094339836172809,
+        "avg_action_height_mean": 0.4150804434254596,
+        "width_dispersion_mean": 0.2977739193856348,
+        "possession_share_std": 0.01329046755595402,
+        "avg_pass_length_std": 0.8167678979877566,
+        "long_pass_ratio_std": 0.03930307486781099,
+        "forward_pass_ratio_std": 0.0037383387406401125,
+        "circulation_tempo_std": 1.2626068544562439,
+        "zone_l0_w0_std": 0.006263481565479949,
+        "zone_l0_w1_std": 0.011430896296346596,
+        "zone_l0_w2_std": 0.01398914005436763,
+        "zone_l0_w3_std": 0.0022000556804215414,
+        "zone_l0_w4_std": 0.0023070028315531443,
+        "zone_l1_w0_std": 0.01358285405165604,
+        "zone_l1_w1_std": 0.0029351051477228707,
+        "zone_l1_w2_std": 0.007600038025653738,
+        "zone_l1_w3_std": 0.00023539690407802655,
+        "zone_l1_w4_std": 0.003328376417757078,
+        "zone_l2_w0_std": 0.01329709579069594,
+        "zone_l2_w1_std": 0.02286745117211814,
+        "zone_l2_w2_std": 0.0038416095716002673,
+        "zone_l2_w3_std": 0.017087778147471634,
+        "zone_l2_w4_std": 0.0031195748369763233,
+        "zone_l3_w0_std": 0.012618066259701638,
+        "zone_l3_w1_std": 0.011230582584703275,
+        "zone_l3_w2_std": 0.009872523522714668,
+        "zone_l3_w3_std": 0.0032401025787278147,
+        "zone_l3_w4_std": 0.006562820417059934,
+        "zone_l4_w0_std": 0.0021893043795141315,
+        "zone_l4_w1_std": 0.006720694783016115,
+        "zone_l4_w2_std": 0.0025208971338163497,
+        "zone_l4_w3_std": 0.0017349204516904433,
+        "zone_l4_w4_std": 0.008182871706423844,
+        "zone_l5_w0_std": 0.01000606599714355,
+        "zone_l5_w1_std": 0.004469711887769999,
+        "zone_l5_w2_std": 0.0030154569755572007,
+        "zone_l5_w3_std": 0.0020263372920754992,
+        "zone_l5_w4_std": 0.0002031430013557955,
+        "avg_action_height_std": 0.0023498354590025944,
+        "width_dispersion_std": 0.0030302387670008007
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.013187319349851859
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.04820204297351559
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.05791952141998656
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.05266383285009066
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.04472145076922729
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.020886382515442264
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.033191529332944024
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.062282286156624955
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.05032740540552775
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.03525804253893668
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.01701817762054472
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.010404429988660207
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.0683907226458612
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.04617570568144008
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.03473405808418608
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.024746665399144874
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.005488256184261454
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.004993696342520603
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.022971569033537267
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.055155305370897245
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.04225940286143044
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.028411727292686623
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.016571715703915964
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.005982816026002305
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.017143798083778663
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.0490949668067731
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.0575211574284699
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.039203769971956084
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.024997906325612766
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.010094339836172809
+        }
+      ],
+      "similar": [
+        {
+          "team": "FC K\u00f6ln",
+          "similarity": 0.3393932476524838
+        },
+        {
+          "team": "RB Leipzig",
+          "similarity": 0.1740774929891555
+        },
+        {
+          "team": "Bochum",
+          "similarity": 0.11226557109795132
+        },
+        {
+          "team": "Darmstadt 98",
+          "similarity": 0.07541657612553525
+        },
+        {
+          "team": "Borussia Dortmund",
+          "similarity": 0.022948266121653682
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|VfB Stuttgart",
+      "team": "VfB Stuttgart",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "VfB Stuttgart",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.5201436467712273,
+        "avg_pass_length_mean": 17.397679962456387,
+        "long_pass_ratio_mean": 0.10095574954846478,
+        "forward_pass_ratio_mean": 0.534460917118202,
+        "circulation_tempo_mean": 9.894080407155496,
+        "zone_l0_w0_mean": 0.016982938935047688,
+        "zone_l0_w1_mean": 0.02577329960499012,
+        "zone_l0_w2_mean": 0.06301455156257954,
+        "zone_l0_w3_mean": 0.026891034329282224,
+        "zone_l0_w4_mean": 0.006579453567695602,
+        "zone_l1_w0_mean": 0.03875612726964958,
+        "zone_l1_w1_mean": 0.041712190854757816,
+        "zone_l1_w2_mean": 0.037044753186890454,
+        "zone_l1_w3_mean": 0.03642655148208605,
+        "zone_l1_w4_mean": 0.02703840840730644,
+        "zone_l2_w0_mean": 0.050527113871037616,
+        "zone_l2_w1_mean": 0.04466411139349589,
+        "zone_l2_w2_mean": 0.05442897575607637,
+        "zone_l2_w3_mean": 0.04846772389318516,
+        "zone_l2_w4_mean": 0.036897379108866236,
+        "zone_l3_w0_mean": 0.0528608327049713,
+        "zone_l3_w1_mean": 0.05527652467065741,
+        "zone_l3_w2_mean": 0.05656619581931109,
+        "zone_l3_w3_mean": 0.04544211631543498,
+        "zone_l3_w4_mean": 0.04347683267656184,
+        "zone_l4_w0_mean": 0.032426440211697834,
+        "zone_l4_w1_mean": 0.025527676141616426,
+        "zone_l4_w2_mean": 0.017429204215490497,
+        "zone_l4_w3_mean": 0.026395644356164677,
+        "zone_l4_w4_mean": 0.033273989126278866,
+        "zone_l5_w0_mean": 0.0124670183915747,
+        "zone_l5_w1_mean": 0.010751501262445416,
+        "zone_l5_w2_mean": 0.005338907111716654,
+        "zone_l5_w3_mean": 0.013011533057366988,
+        "zone_l5_w4_mean": 0.014550970715764527,
+        "avg_action_height_mean": 0.4697528054012944,
+        "width_dispersion_mean": 0.27986960603696387,
+        "possession_share_std": 0.00288156331280634,
+        "avg_pass_length_std": 0.47070054509230896,
+        "long_pass_ratio_std": 0.013834537427252658,
+        "forward_pass_ratio_std": 0.017415462572747314,
+        "circulation_tempo_std": 0.965059391068781,
+        "zone_l0_w0_std": 0.002079809277819669,
+        "zone_l0_w1_std": 0.0004379791877024931,
+        "zone_l0_w2_std": 0.01085359776228147,
+        "zone_l0_w3_std": 0.0006797555365896102,
+        "zone_l0_w4_std": 0.0013633581876657955,
+        "zone_l1_w0_std": 0.009695024438054943,
+        "zone_l1_w1_std": 0.005944679677410573,
+        "zone_l1_w2_std": 0.004257867940988813,
+        "zone_l1_w3_std": 0.003066742109568187,
+        "zone_l1_w4_std": 0.003938557438603013,
+        "zone_l2_w0_std": 0.005072568416492165,
+        "zone_l2_w1_std": 0.014112695596178455,
+        "zone_l2_w2_std": 0.005183542872835704,
+        "zone_l2_w3_std": 0.0007777089900555048,
+        "zone_l2_w4_std": 0.00036044503420380736,
+        "zone_l3_w0_std": 0.005915974284703043,
+        "zone_l3_w1_std": 0.014768184718314278,
+        "zone_l3_w2_std": 0.010497887638214987,
+        "zone_l3_w3_std": 0.009699463416308687,
+        "zone_l3_w4_std": 0.0010029131534619873,
+        "zone_l4_w0_std": 0.004110493862964596,
+        "zone_l4_w1_std": 0.007259209104285212,
+        "zone_l4_w2_std": 0.004016387523985279,
+        "zone_l4_w3_std": 0.004155771441152762,
+        "zone_l4_w4_std": 0.005474147982513976,
+        "zone_l5_w0_std": 0.006907050162821721,
+        "zone_l5_w1_std": 0.00042584598047559893,
+        "zone_l5_w2_std": 0.0013675012340359548,
+        "zone_l5_w3_std": 0.0018915965998610308,
+        "zone_l5_w4_std": 0.0018424719071862918,
+        "avg_action_height_std": 0.00578090246387418,
+        "width_dispersion_std": 0.0009245360243251288
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.016982938935047688
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.03875612726964958
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.050527113871037616
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.0528608327049713
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.032426440211697834
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.0124670183915747
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.02577329960499012
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.041712190854757816
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.04466411139349589
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.05527652467065741
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.025527676141616426
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.010751501262445416
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.06301455156257954
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.037044753186890454
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.05442897575607637
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.05656619581931109
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.017429204215490497
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.005338907111716654
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.026891034329282224
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.03642655148208605
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.04846772389318516
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.04544211631543498
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.026395644356164677
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.013011533057366988
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.006579453567695602
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.02703840840730644
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.036897379108866236
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.04347683267656184
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.033273989126278866
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.014550970715764527
+        }
+      ],
+      "similar": [
+        {
+          "team": "Bayern Munich",
+          "similarity": 0.31011287319136854
+        },
+        {
+          "team": "Eintracht Frankfurt",
+          "similarity": 0.19870322863203693
+        },
+        {
+          "team": "Bochum",
+          "similarity": 0.1751326795515342
+        },
+        {
+          "team": "Bayer Leverkusen",
+          "similarity": 0.15516598279157492
+        },
+        {
+          "team": "Werder Bremen",
+          "similarity": 0.13244895974043028
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Werder Bremen",
+      "team": "Werder Bremen",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Werder Bremen",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.4224586629056015,
+        "avg_pass_length_mean": 19.242076107199594,
+        "long_pass_ratio_mean": 0.14374340159093524,
+        "forward_pass_ratio_mean": 0.5335382106682556,
+        "circulation_tempo_mean": 11.452024216978248,
+        "zone_l0_w0_mean": 0.016118800619049443,
+        "zone_l0_w1_mean": 0.02398508976763771,
+        "zone_l0_w2_mean": 0.0520846435270506,
+        "zone_l0_w3_mean": 0.028113908925358606,
+        "zone_l0_w4_mean": 0.009099808050923926,
+        "zone_l1_w0_mean": 0.0310071584427516,
+        "zone_l1_w1_mean": 0.05002843690015914,
+        "zone_l1_w2_mean": 0.04961452961539092,
+        "zone_l1_w3_mean": 0.042168299965547607,
+        "zone_l1_w4_mean": 0.037208590131301914,
+        "zone_l2_w0_mean": 0.05373412045214671,
+        "zone_l2_w1_mean": 0.06243540175324427,
+        "zone_l2_w2_mean": 0.06160553644571559,
+        "zone_l2_w3_mean": 0.06574255855540548,
+        "zone_l2_w4_mean": 0.05085932757668393,
+        "zone_l3_w0_mean": 0.02603822028754081,
+        "zone_l3_w1_mean": 0.035966868276997285,
+        "zone_l3_w2_mean": 0.03967357719798098,
+        "zone_l3_w3_mean": 0.042987911583115046,
+        "zone_l3_w4_mean": 0.05042286217400102,
+        "zone_l4_w0_mean": 0.019013075505438556,
+        "zone_l4_w1_mean": 0.021075434346306758,
+        "zone_l4_w2_mean": 0.016938412236616886,
+        "zone_l4_w3_mean": 0.033068491914623674,
+        "zone_l4_w4_mean": 0.03430816303093606,
+        "zone_l5_w0_mean": 0.007025144782102253,
+        "zone_l5_w1_mean": 0.007437001328878219,
+        "zone_l5_w2_mean": 0.0053746424880100185,
+        "zone_l5_w3_mean": 0.014050289564204507,
+        "zone_l5_w4_mean": 0.012813694554880482,
+        "avg_action_height_mean": 0.46944022016795994,
+        "width_dispersion_mean": 0.2727616740749131,
+        "possession_share_std": 0.017075526404640315,
+        "avg_pass_length_std": 0.24184037011069748,
+        "long_pass_ratio_std": 0.013207271054804688,
+        "forward_pass_ratio_std": 0.009062686192731012,
+        "circulation_tempo_std": 0.0507815447750235,
+        "zone_l0_w0_std": 0.002873767506466661,
+        "zone_l0_w1_std": 0.00664404930520997,
+        "zone_l0_w2_std": 0.002415769354865172,
+        "zone_l0_w3_std": 0.0025152301474890768,
+        "zone_l0_w4_std": 0.004145225061658856,
+        "zone_l1_w0_std": 0.002105424338705357,
+        "zone_l1_w1_std": 0.006262953828317687,
+        "zone_l1_w2_std": 0.005849046543549473,
+        "zone_l1_w3_std": 0.0017058722198828608,
+        "zone_l1_w4_std": 0.002526509206446431,
+        "zone_l2_w0_std": 0.005720875419034127,
+        "zone_l2_w1_std": 0.010412280365961028,
+        "zone_l2_w2_std": 0.007930887395344003,
+        "zone_l2_w3_std": 0.010416381841945519,
+        "zone_l2_w4_std": 0.009571135999475011,
+        "zone_l3_w0_std": 0.004515041479593792,
+        "zone_l3_w1_std": 0.0012847873521417922,
+        "zone_l3_w2_std": 0.009872252694669723,
+        "zone_l3_w3_std": 0.004080626814903126,
+        "zone_l3_w4_std": 0.009032133697179824,
+        "zone_l4_w0_std": 0.002456784114710079,
+        "zone_l4_w1_std": 0.006174772094651129,
+        "zone_l4_w2_std": 0.008660266541252647,
+        "zone_l4_w3_std": 0.0024393528417759923,
+        "zone_l4_w4_std": 0.0028512093885519566,
+        "zone_l5_w0_std": 0.0020582573648837096,
+        "zone_l5_w1_std": 0.0032979284811960998,
+        "zone_l5_w2_std": 0.0004200594987449485,
+        "zone_l5_w3_std": 0.004116514729767419,
+        "zone_l5_w4_std": 0.0012242905813705488,
+        "avg_action_height_std": 0.03698101270875247,
+        "width_dispersion_std": 0.005106698401062315
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.016118800619049443
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.0310071584427516
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.05373412045214671
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.02603822028754081
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.019013075505438556
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.007025144782102253
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.02398508976763771
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.05002843690015914
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.06243540175324427
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.035966868276997285
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.021075434346306758
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.007437001328878219
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.0520846435270506
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.04961452961539092
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.06160553644571559
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.03967357719798098
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.016938412236616886
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.0053746424880100185
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.028113908925358606
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.042168299965547607
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.06574255855540548
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.042987911583115046
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.033068491914623674
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.014050289564204507
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.009099808050923926
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.037208590131301914
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.05085932757668393
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.05042286217400102
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.03430816303093606
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.012813694554880482
+        }
+      ],
+      "similar": [
+        {
+          "team": "Eintracht Frankfurt",
+          "similarity": 0.29420728525428325
+        },
+        {
+          "team": "Bayern Munich",
+          "similarity": 0.2885875291787414
+        },
+        {
+          "team": "Augsburg",
+          "similarity": 0.15900014334269671
+        },
+        {
+          "team": "VfB Stuttgart",
+          "similarity": 0.1324489597404303
+        },
+        {
+          "team": "RB Leipzig",
+          "similarity": 0.0697168005890767
+        }
+      ]
+    },
+    {
+      "id": "1. Bundesliga|2023|Wolfsburg",
+      "team": "Wolfsburg",
+      "competition": "1. Bundesliga",
+      "season": "2023",
+      "signature": {
+        "team": "Wolfsburg",
+        "competition": "1. Bundesliga",
+        "season": 2023,
+        "possession_share_mean": 0.31879127369796384,
+        "avg_pass_length_mean": 20.314652911739735,
+        "long_pass_ratio_mean": 0.16768442192279848,
+        "forward_pass_ratio_mean": 0.5551455993274642,
+        "circulation_tempo_mean": 10.50881699991812,
+        "zone_l0_w0_mean": 0.03132947415181298,
+        "zone_l0_w1_mean": 0.02535398967183075,
+        "zone_l0_w2_mean": 0.0826322949636293,
+        "zone_l0_w3_mean": 0.020613998556277414,
+        "zone_l0_w4_mean": 0.020106613359986675,
+        "zone_l1_w0_mean": 0.03582583708145927,
+        "zone_l1_w1_mean": 0.04371911266588928,
+        "zone_l1_w2_mean": 0.05088428008218113,
+        "zone_l1_w3_mean": 0.04850352601477039,
+        "zone_l1_w4_mean": 0.04473388305847077,
+        "zone_l2_w0_mean": 0.0551613082347715,
+        "zone_l2_w1_mean": 0.030975484479982232,
+        "zone_l2_w2_mean": 0.04892206674440558,
+        "zone_l2_w3_mean": 0.040389527458492974,
+        "zone_l2_w4_mean": 0.04155769337553446,
+        "zone_l3_w0_mean": 0.04643095119107113,
+        "zone_l3_w1_mean": 0.0449087956021989,
+        "zone_l3_w2_mean": 0.037148786717752236,
+        "zone_l3_w3_mean": 0.03860361485923705,
+        "zone_l3_w4_mean": 0.04065328446887667,
+        "zone_l4_w0_mean": 0.025199205952579264,
+        "zone_l4_w1_mean": 0.0247362429896163,
+        "zone_l4_w2_mean": 0.008443694819257037,
+        "zone_l4_w3_mean": 0.025993253373313346,
+        "zone_l4_w4_mean": 0.039155422288855574,
+        "zone_l5_w0_mean": 0.012434060747404076,
+        "zone_l5_w1_mean": 0.005776278527402965,
+        "zone_l5_w2_mean": 0.006305180742961852,
+        "zone_l5_w3_mean": 0.010626631128880005,
+        "zone_l5_w4_mean": 0.012875506691098895,
+        "avg_action_height_mean": 0.388196688931983,
+        "width_dispersion_mean": 0.28456065917660417,
+        "possession_share_std": 0.08641902134283966,
+        "avg_pass_length_std": 0.44926677765009604,
+        "long_pass_ratio_std": 0.006112369521051771,
+        "forward_pass_ratio_std": 0.022394507624407423,
+        "circulation_tempo_std": 0.6899070340331868,
+        "zone_l0_w0_std": 0.021144288966627796,
+        "zone_l0_w1_std": 0.003131767449608528,
+        "zone_l0_w2_std": 0.017817480148814485,
+        "zone_l0_w3_std": 0.004873257815536678,
+        "zone_l0_w4_std": 0.002115608862235551,
+        "zone_l1_w0_std": 0.005840829585207395,
+        "zone_l1_w1_std": 0.0057561497029263164,
+        "zone_l1_w2_std": 0.0045879837858848384,
+        "zone_l1_w3_std": 0.011466488977733356,
+        "zone_l1_w4_std": 0.019733883058470767,
+        "zone_l2_w0_std": 0.003309456382919655,
+        "zone_l2_w1_std": 0.006987478482980733,
+        "zone_l2_w2_std": 0.0035516963740352004,
+        "zone_l2_w3_std": 0.0059067688378033195,
+        "zone_l2_w4_std": 0.013071936254095178,
+        "zone_l3_w0_std": 0.007542062302182245,
+        "zone_l3_w1_std": 0.013424537731134436,
+        "zone_l3_w2_std": 0.002666028097062581,
+        "zone_l3_w3_std": 0.008618607362985175,
+        "zone_l3_w4_std": 0.02416153034593814,
+        "zone_l4_w0_std": 0.007208201454828141,
+        "zone_l4_w1_std": 0.006745238491865178,
+        "zone_l4_w2_std": 0.00544519406963185,
+        "zone_l4_w3_std": 0.0009932533733133424,
+        "zone_l4_w4_std": 0.005822088955522241,
+        "zone_l5_w0_std": 0.007936309622966296,
+        "zone_l5_w1_std": 0.00022072297184740942,
+        "zone_l5_w2_std": 0.004805930368149258,
+        "zone_l5_w3_std": 0.0013673718696207448,
+        "zone_l5_w4_std": 0.0036162474318396365,
+        "avg_action_height_std": 0.0869711987359046,
+        "width_dispersion_std": 0.002160404157152296
+      },
+      "zones": [
+        {
+          "length": 0,
+          "width": 0,
+          "value": 0.03132947415181298
+        },
+        {
+          "length": 1,
+          "width": 0,
+          "value": 0.03582583708145927
+        },
+        {
+          "length": 2,
+          "width": 0,
+          "value": 0.0551613082347715
+        },
+        {
+          "length": 3,
+          "width": 0,
+          "value": 0.04643095119107113
+        },
+        {
+          "length": 4,
+          "width": 0,
+          "value": 0.025199205952579264
+        },
+        {
+          "length": 5,
+          "width": 0,
+          "value": 0.012434060747404076
+        },
+        {
+          "length": 0,
+          "width": 1,
+          "value": 0.02535398967183075
+        },
+        {
+          "length": 1,
+          "width": 1,
+          "value": 0.04371911266588928
+        },
+        {
+          "length": 2,
+          "width": 1,
+          "value": 0.030975484479982232
+        },
+        {
+          "length": 3,
+          "width": 1,
+          "value": 0.0449087956021989
+        },
+        {
+          "length": 4,
+          "width": 1,
+          "value": 0.0247362429896163
+        },
+        {
+          "length": 5,
+          "width": 1,
+          "value": 0.005776278527402965
+        },
+        {
+          "length": 0,
+          "width": 2,
+          "value": 0.0826322949636293
+        },
+        {
+          "length": 1,
+          "width": 2,
+          "value": 0.05088428008218113
+        },
+        {
+          "length": 2,
+          "width": 2,
+          "value": 0.04892206674440558
+        },
+        {
+          "length": 3,
+          "width": 2,
+          "value": 0.037148786717752236
+        },
+        {
+          "length": 4,
+          "width": 2,
+          "value": 0.008443694819257037
+        },
+        {
+          "length": 5,
+          "width": 2,
+          "value": 0.006305180742961852
+        },
+        {
+          "length": 0,
+          "width": 3,
+          "value": 0.020613998556277414
+        },
+        {
+          "length": 1,
+          "width": 3,
+          "value": 0.04850352601477039
+        },
+        {
+          "length": 2,
+          "width": 3,
+          "value": 0.040389527458492974
+        },
+        {
+          "length": 3,
+          "width": 3,
+          "value": 0.03860361485923705
+        },
+        {
+          "length": 4,
+          "width": 3,
+          "value": 0.025993253373313346
+        },
+        {
+          "length": 5,
+          "width": 3,
+          "value": 0.010626631128880005
+        },
+        {
+          "length": 0,
+          "width": 4,
+          "value": 0.020106613359986675
+        },
+        {
+          "length": 1,
+          "width": 4,
+          "value": 0.04473388305847077
+        },
+        {
+          "length": 2,
+          "width": 4,
+          "value": 0.04155769337553446
+        },
+        {
+          "length": 3,
+          "width": 4,
+          "value": 0.04065328446887667
+        },
+        {
+          "length": 4,
+          "width": 4,
+          "value": 0.039155422288855574
+        },
+        {
+          "length": 5,
+          "width": 4,
+          "value": 0.012875506691098895
+        }
+      ],
+      "similar": [
+        {
+          "team": "Hoffenheim",
+          "similarity": 0.23001150305074577
+        },
+        {
+          "team": "Borussia Dortmund",
+          "similarity": 0.17122125790460133
+        },
+        {
+          "team": "Darmstadt 98",
+          "similarity": 0.125536370746628
+        },
+        {
+          "team": "FC K\u00f6ln",
+          "similarity": 0.09466369714944319
+        },
+        {
+          "team": "Bochum",
+          "similarity": 0.07979775494309785
+        }
+      ]
+    },
+    {
+      "id": "Champions League|2015|Atl\u00e9tico Madrid",
       "team": "Atl\u00e9tico Madrid",
+      "competition": "Champions League",
+      "season": "2015",
       "signature": {
         "team": "Atl\u00e9tico Madrid",
+        "competition": "Champions League",
+        "season": 2015,
         "possession_share_mean": 0.5182860262008734,
         "avg_pass_length_mean": 17.18056430898734,
         "long_pass_ratio_mean": 0.10535405872193437,
@@ -240,9 +4917,14 @@
       ]
     },
     {
+      "id": "Champions League|2015|Real Madrid",
       "team": "Real Madrid",
+      "competition": "Champions League",
+      "season": "2015",
       "signature": {
         "team": "Real Madrid",
+        "competition": "Champions League",
+        "season": 2015,
         "possession_share_mean": 0.4817139737991266,
         "avg_pass_length_mean": 19.690142246723465,
         "long_pass_ratio_mean": 0.15370018975332067,

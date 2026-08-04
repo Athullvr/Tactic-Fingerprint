@@ -52,7 +52,9 @@ def load_cached_events(competition: str, season: int, raw_root: Path = RAW_ROOT,
         location = raw_root / f"{competition_id}_{season_id}"
     except ModuleNotFoundError:
         location = raw_root / f"{competition.replace(' ', '_')}_{season}"
-    if not location.exists():
+    # A directory may exist while a previous event download is still running.
+    # Only a manifest marks a cache as complete and safe to analyse.
+    if not (location / "manifest.json").exists():
         if not download_missing:
             raise FileNotFoundError(f"No cached data at {location}")
         location = download_competition(competition, season, raw_root)

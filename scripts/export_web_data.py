@@ -23,15 +23,31 @@ def export_web_data(signature_path: Path, output_path: Path) -> None:
     profiles = []
     for _, row in table.iterrows():
         team = str(row["team"])
+        competition = str(row.get("competition", "StatsBomb Open Data"))
+        season = str(row.get("season", ""))
         signature = {key: value.item() if hasattr(value, "item") else value for key, value in row.items()}
         zones = [
             {"length": length, "width": width, "value": float(row.get(f"{zone_column(length, width)}_mean", row.get(zone_column(length, width), 0.0)))}
             for width in range(5)
             for length in range(6)
         ]
-        profiles.append({"team": team, "signature": signature, "zones": zones, "similar": most_similar_teams(team, table, top_n=5).to_dict(orient="records")})
+        peers = table.loc[(table.get("competition", competition) == competition) & (table.get("season", season).astype(str) == season)]
+        profiles.append({
+            "id": f"{competition}|{season}|{team}",
+            "team": team,
+            "competition": competition,
+            "season": season,
+            "signature": signature,
+            "zones": zones,
+            "similar": most_similar_teams(team, peers, top_n=5).to_dict(orient="records"),
+        })
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps({"generated_at": datetime.now(timezone.utc).isoformat(), "teams": profiles}, indent=2, default=str), encoding="utf-8")
+    sources = sorted({(profile["competition"], profile["season"]) for profile in profiles})
+    output_path.write_text(json.dumps({
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "sources": [{"competition": competition, "season": season} for competition, season in sources],
+        "teams": profiles,
+    }, indent=2, default=str), encoding="utf-8")
 
 
 if __name__ == "__main__":

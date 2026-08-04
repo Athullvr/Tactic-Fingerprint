@@ -69,10 +69,10 @@ For Vercel, the season pipeline also writes `web/public/data/tactical.json`, a s
 
 ### Current data scope
 
-The deployed dataset currently uses the 2015 Champions League season and therefore contains two team profiles: Atletico Madrid and Real Madrid. This demonstrates the comparisons and visualisations, but it limits similarity results and clustering. To make the explorer genuinely useful, run the pipeline across additional StatsBomb Open Data competitions and seasons, then redeploy the regenerated `web/public/data/tactical.json`.
+The deployed dataset combines the 2023-24 1. Bundesliga sample (18 clubs) with the original 2015 Champions League sample (Atletico Madrid and Real Madrid), giving the explorer 20 profiles. Dataset, team, and comparison controls let visitors switch between sources. Add further entries to `SOURCES` in `scripts/build_explorer_dataset.py` to extend coverage with more StatsBomb Open Data competitions and seasons.
 
 ```bash
-python scripts/run_pipeline.py --competition "Champions League" --season 2015 --mode season
+python scripts/build_explorer_dataset.py
 cd web
 npx vercel --prod
 ```
