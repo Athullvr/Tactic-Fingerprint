@@ -72,6 +72,7 @@ The FastAPI service exposes derived signatures only (`/health`, `/teams`, `/team
 - **Data confidence:** every profile shows the number of matches analysed and a sample-size label.
 - **Cross-source comparison:** users can compare teams across the available competition and season sources.
 - **Shareable analysis:** selections are encoded in the URL and can be copied directly from the site.
+- **Style timeline:** match-by-match possession, directness, and defensive-height lines reveal whether a team keeps a stable identity or adapts across the available sample.
 
 For Vercel, the season pipeline also writes `web/public/data/tactical.json`, a small static derived-data payload. This makes the Next.js site deployable by itself; configure Vercel's **Root Directory** as `web/` and deploy. Re-run the season pipeline before a new deployment whenever the underlying competition data changes.
 

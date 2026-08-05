@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T08:07:32.590383+00:00",
+  "generated_at": "2026-08-05T08:14:47.731153+00:00",
   "sources": [
     {
       "competition": "1. Bundesliga",
@@ -295,7 +295,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.23471650300918592,
+          "directness": 0.17703349282296652,
+          "defensive_height": 0.45425189393939386
+        },
+        {
+          "match": 2,
+          "possession": 0.3479026107362863,
+          "directness": 0.0953757225433526,
+          "defensive_height": 0.4534913793103449
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Bayer Leverkusen",
@@ -581,7 +595,213 @@
       "data_quality": {
         "matches_played": 34,
         "label": "Strong sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.4395053475935829,
+          "directness": 0.09090909090909091,
+          "defensive_height": 0.5172556719022688
+        },
+        {
+          "match": 2,
+          "possession": 0.608683314415437,
+          "directness": 0.09174311926605505,
+          "defensive_height": 0.4236746987951807
+        },
+        {
+          "match": 3,
+          "possession": 0.7405004633920297,
+          "directness": 0.06630581867388363,
+          "defensive_height": 0.5251197604790419
+        },
+        {
+          "match": 4,
+          "possession": 0.49291293028637545,
+          "directness": 0.09003831417624521,
+          "defensive_height": 0.4626417704011065
+        },
+        {
+          "match": 5,
+          "possession": 0.7062609713282622,
+          "directness": 0.08723135271807839,
+          "defensive_height": 0.5815706806282723
+        },
+        {
+          "match": 6,
+          "possession": 0.5472698907956318,
+          "directness": 0.09074410163339383,
+          "defensive_height": 0.43172979797979794
+        },
+        {
+          "match": 7,
+          "possession": 0.6554351010840902,
+          "directness": 0.10407876230661041,
+          "defensive_height": 0.5888772663877266
+        },
+        {
+          "match": 8,
+          "possession": 0.5947897049591965,
+          "directness": 0.13051146384479717,
+          "defensive_height": 0.45570175438596494
+        },
+        {
+          "match": 9,
+          "possession": 0.7083870967741935,
+          "directness": 0.05794947994056464,
+          "defensive_height": 0.5350133689839572
+        },
+        {
+          "match": 10,
+          "possession": 0.5215979214030529,
+          "directness": 0.12524461839530332,
+          "defensive_height": 0.4559251412429378
+        },
+        {
+          "match": 11,
+          "possession": 0.6885108756274401,
+          "directness": 0.0842911877394636,
+          "defensive_height": 0.5151675041876047
+        },
+        {
+          "match": 12,
+          "possession": 0.5946168634990388,
+          "directness": 0.06962962962962962,
+          "defensive_height": 0.501323877068558
+        },
+        {
+          "match": 13,
+          "possession": 0.6844221105527638,
+          "directness": 0.06743421052631579,
+          "defensive_height": 0.5905045871559634
+        },
+        {
+          "match": 14,
+          "possession": 0.4827379165415791,
+          "directness": 0.08158995815899582,
+          "defensive_height": 0.46466524216524224
+        },
+        {
+          "match": 15,
+          "possession": 0.6113931190073322,
+          "directness": 0.09370424597364568,
+          "defensive_height": 0.5496570512820512
+        },
+        {
+          "match": 16,
+          "possession": 0.7013238618017437,
+          "directness": 0.10349854227405247,
+          "defensive_height": 0.48256033182503777
+        },
+        {
+          "match": 17,
+          "possession": 0.7652834969908141,
+          "directness": 0.0964332892998679,
+          "defensive_height": 0.5563177339901478
+        },
+        {
+          "match": 18,
+          "possession": 0.6015673981191223,
+          "directness": 0.06354515050167224,
+          "defensive_height": 0.4669786910197869
+        },
+        {
+          "match": 19,
+          "possession": 0.7520703933747412,
+          "directness": 0.0748074807480748,
+          "defensive_height": 0.6445833333333333
+        },
+        {
+          "match": 20,
+          "possession": 0.6794910633141472,
+          "directness": 0.055865921787709494,
+          "defensive_height": 0.4977155887230514
+        },
+        {
+          "match": 21,
+          "possession": 0.38333333333333336,
+          "directness": 0.08870967741935484,
+          "defensive_height": 0.44537366548042706
+        },
+        {
+          "match": 22,
+          "possession": 0.6197952218430034,
+          "directness": 0.09665427509293681,
+          "defensive_height": 0.4429072681704261
+        },
+        {
+          "match": 23,
+          "possession": 0.6611350813143047,
+          "directness": 0.08360128617363344,
+          "defensive_height": 0.5551923076923077
+        },
+        {
+          "match": 24,
+          "possession": 0.7770143660212367,
+          "directness": 0.10353535353535354,
+          "defensive_height": 0.5984016393442624
+        },
+        {
+          "match": 25,
+          "possession": 0.7676277476448758,
+          "directness": 0.08525345622119816,
+          "defensive_height": 0.5845380952380952
+        },
+        {
+          "match": 26,
+          "possession": 0.6843094268712809,
+          "directness": 0.06772334293948126,
+          "defensive_height": 0.522154761904762
+        },
+        {
+          "match": 27,
+          "possession": 0.6990950226244343,
+          "directness": 0.08504398826979472,
+          "defensive_height": 0.6225360576923078
+        },
+        {
+          "match": 28,
+          "possession": 0.661929940515532,
+          "directness": 0.1088,
+          "defensive_height": 0.5026225490196078
+        },
+        {
+          "match": 29,
+          "possession": 0.5604658106897581,
+          "directness": 0.0958904109589041,
+          "defensive_height": 0.5566409817351599
+        },
+        {
+          "match": 30,
+          "possession": 0.5284391534391535,
+          "directness": 0.10677618069815195,
+          "defensive_height": 0.5107106782106783
+        },
+        {
+          "match": 31,
+          "possession": 0.47697478991596637,
+          "directness": 0.07058823529411765,
+          "defensive_height": 0.5265265804597701
+        },
+        {
+          "match": 32,
+          "possession": 0.43941553813257306,
+          "directness": 0.16085790884718498,
+          "defensive_height": 0.44954022988505743
+        },
+        {
+          "match": 33,
+          "possession": 0.6953095684803002,
+          "directness": 0.10862068965517241,
+          "defensive_height": 0.4895668859649122
+        },
+        {
+          "match": 34,
+          "possession": 0.6520973892637137,
+          "directness": 0.08273894436519258,
+          "defensive_height": 0.5034991273996509
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Bayern Munich",
@@ -867,7 +1087,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.5070870697136245,
+          "directness": 0.12293577981651377,
+          "defensive_height": 0.4897939729397294
+        },
+        {
+          "match": 2,
+          "possession": 0.6166666666666667,
+          "directness": 0.0959349593495935,
+          "defensive_height": 0.5145466666666666
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Bochum",
@@ -1153,7 +1387,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.2986761381982564,
+          "directness": 0.23694779116465864,
+          "defensive_height": 0.5120564892623717
+        },
+        {
+          "match": 2,
+          "possession": 0.3046904315196998,
+          "directness": 0.17543859649122806,
+          "defensive_height": 0.3927624309392265
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Borussia Dortmund",
@@ -1439,7 +1687,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.3155778894472362,
+          "directness": 0.20717131474103587,
+          "defensive_height": 0.3062562656641604
+        },
+        {
+          "match": 2,
+          "possession": 0.47156084656084657,
+          "directness": 0.13318284424379231,
+          "defensive_height": 0.4270253863134657
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Borussia M\u00f6nchengladbach",
@@ -1725,7 +1987,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.391316685584563,
+          "directness": 0.09200968523002422,
+          "defensive_height": 0.4303787878787879
+        },
+        {
+          "match": 2,
+          "possession": 0.24792960662525879,
+          "directness": 0.13257575757575757,
+          "defensive_height": 0.32686075949367094
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Darmstadt 98",
@@ -2011,7 +2287,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.2594995366079703,
+          "directness": 0.15668202764976957,
+          "defensive_height": 0.36771269177126914
+        },
+        {
+          "match": 2,
+          "possession": 0.3205089366858528,
+          "directness": 0.13486842105263158,
+          "defensive_height": 0.4443472584856397
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Eintracht Frankfurt",
@@ -2297,7 +2587,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.38860688099266777,
+          "directness": 0.12903225806451613,
+          "defensive_height": 0.4873773690078039
+        },
+        {
+          "match": 2,
+          "possession": 0.5605844618674269,
+          "directness": 0.09453781512605042,
+          "defensive_height": 0.5296315426997246
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|FC Heidenheim",
@@ -2583,7 +2887,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.29373902867173785,
+          "directness": 0.17391304347826086,
+          "defensive_height": 0.3997754329004329
+        },
+        {
+          "match": 2,
+          "possession": 0.3802047781569966,
+          "directness": 0.15878378378378377,
+          "defensive_height": 0.4726032660902978
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|FC K\u00f6ln",
@@ -2869,7 +3187,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.34456489891590975,
+          "directness": 0.1352112676056338,
+          "defensive_height": 0.43260073260073256
+        },
+        {
+          "match": 2,
+          "possession": 0.22298563397876328,
+          "directness": 0.18617021276595744,
+          "defensive_height": 0.3595816326530612
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|FSV Mainz 05",
@@ -3155,7 +3487,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.4527301092043682,
+          "directness": 0.09176470588235294,
+          "defensive_height": 0.5238456284153005
+        },
+        {
+          "match": 2,
+          "possession": 0.3388649186856953,
+          "directness": 0.13138686131386862,
+          "defensive_height": 0.449625786163522
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Freiburg",
@@ -3441,7 +3787,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.29161290322580646,
+          "directness": 0.19183673469387755,
+          "defensive_height": 0.388246996996997
+        },
+        {
+          "match": 2,
+          "possession": 0.31569057312871907,
+          "directness": 0.13993174061433447,
+          "defensive_height": 0.41703834115805954
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Hoffenheim",
@@ -3727,7 +4087,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.47840207859694706,
+          "directness": 0.14093959731543623,
+          "defensive_height": 0.47149739583333333
+        },
+        {
+          "match": 2,
+          "possession": 0.3009049773755656,
+          "directness": 0.15845070422535212,
+          "defensive_height": 0.3133881578947368
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|RB Leipzig",
@@ -4013,7 +4387,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.5604946524064172,
+          "directness": 0.12109375,
+          "defensive_height": 0.4509756097560976
+        },
+        {
+          "match": 2,
+          "possession": 0.39843260188087776,
+          "directness": 0.13934426229508196,
+          "defensive_height": 0.4557954545454545
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Union Berlin",
@@ -4299,7 +4687,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.31148912437255993,
+          "directness": 0.11356466876971609,
+          "defensive_height": 0.41273060796645694
+        },
+        {
+          "match": 2,
+          "possession": 0.33807005948446794,
+          "directness": 0.19217081850533807,
+          "defensive_height": 0.41743027888446216
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|VfB Stuttgart",
@@ -4585,7 +4987,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.5172620834584208,
+          "directness": 0.08712121212121213,
+          "defensive_height": 0.4755337078651685
+        },
+        {
+          "match": 2,
+          "possession": 0.5230252100840336,
+          "directness": 0.11479028697571744,
+          "defensive_height": 0.4639719029374202
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Werder Bremen",
@@ -4871,7 +5287,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.40538313650096125,
+          "directness": 0.13053613053613053,
+          "defensive_height": 0.5064212328767124
+        },
+        {
+          "match": 2,
+          "possession": 0.43953418931024185,
+          "directness": 0.15695067264573992,
+          "defensive_height": 0.43245920745920746
+        }
+      ]
     },
     {
       "id": "1. Bundesliga|2023|Wolfsburg",
@@ -5157,7 +5587,21 @@
       "data_quality": {
         "matches_played": 2,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.4052102950408035,
+          "directness": 0.17379679144385027,
+          "defensive_height": 0.47516788766788765
+        },
+        {
+          "match": 2,
+          "possession": 0.23237225235512418,
+          "directness": 0.1615720524017467,
+          "defensive_height": 0.3012254901960784
+        }
+      ]
     },
     {
       "id": "Champions League|2015|Atl\u00e9tico Madrid",
@@ -5411,7 +5855,15 @@
       "data_quality": {
         "matches_played": 1,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.5182860262008734,
+          "directness": 0.10535405872193437,
+          "defensive_height": 0.435749299719888
+        }
+      ]
     },
     {
       "id": "Champions League|2015|Real Madrid",
@@ -5665,7 +6117,15 @@
       "data_quality": {
         "matches_played": 1,
         "label": "Small sample"
-      }
+      },
+      "trajectory": [
+        {
+          "match": 1,
+          "possession": 0.4817139737991266,
+          "directness": 0.15370018975332067,
+          "defensive_height": 0.4208805031446541
+        }
+      ]
     }
   ]
 }

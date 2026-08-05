@@ -56,7 +56,7 @@ def similarity_reasons(row: pd.Series, other: pd.Series, peers: pd.DataFrame) ->
     return [label for _, label in sorted(differences)[:2]]
 
 
-def export_web_data(signature_path: Path, output_path: Path) -> None:
+def export_web_data(signature_path: Path, output_path: Path, match_signatures: pd.DataFrame | None = None) -> None:
     """Turn a signature table into the static payload consumed by the website."""
     table = pd.read_parquet(signature_path)
     profiles = []
@@ -77,6 +77,20 @@ def export_web_data(signature_path: Path, output_path: Path) -> None:
             similar.append({**item, "reasons": similarity_reasons(row, other, peers)})
         style, style_reason = archetype(row, peers)
         matches_played = int(row.get("matches_played", 0))
+        team_matches = match_signatures.loc[
+            (match_signatures["team"].astype(str) == team)
+            & (match_signatures["competition"].astype(str) == competition)
+            & (match_signatures["season"].astype(str) == season)
+        ].sort_values("match_id") if match_signatures is not None else pd.DataFrame()
+        trajectory = [
+            {
+                "match": index + 1,
+                "possession": value(match, "possession_share"),
+                "directness": value(match, "long_pass_ratio"),
+                "defensive_height": value(match, "avg_action_height"),
+            }
+            for index, (_, match) in enumerate(team_matches.iterrows())
+        ]
         profiles.append({
             "id": f"{competition}|{season}|{team}",
             "team": team,
@@ -91,6 +105,7 @@ def export_web_data(signature_path: Path, output_path: Path) -> None:
                 "matches_played": matches_played,
                 "label": "Strong sample" if matches_played >= 8 else "Developing sample" if matches_played >= 4 else "Small sample",
             },
+            "trajectory": trajectory,
         })
     output_path.parent.mkdir(parents=True, exist_ok=True)
     sources = sorted({(profile["competition"], profile["season"]) for profile in profiles})
