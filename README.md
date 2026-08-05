@@ -4,6 +4,10 @@ Tactic Fingerprint Generator turns StatsBomb Open Data match events into a numer
 
 **Live website:** [web-theta-dusky-20.vercel.app](https://web-theta-dusky-20.vercel.app)
 
+## Deployment
+
+The current production release is hosted on Vercel: [Open Tactic Fingerprint](https://web-theta-dusky-20.vercel.app). It serves the static Next.js explorer and its derived 20-team tactical dataset; raw StatsBomb event files remain local and are never deployed.
+
 ```
 StatsBomb Open Data (local cache)
           |
