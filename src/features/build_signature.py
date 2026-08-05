@@ -28,7 +28,8 @@ def aggregate_season_signatures(match_signatures: pd.DataFrame) -> pd.DataFrame:
     feature_columns = [column for column in match_signatures.columns if column not in {"team", "match_id"}]
     means = match_signatures.groupby("team", as_index=True)[feature_columns].mean().add_suffix("_mean")
     stds = match_signatures.groupby("team", as_index=True)[feature_columns].std(ddof=0).fillna(0).add_suffix("_std")
-    return means.join(stds).reset_index()
+    sample_sizes = match_signatures.groupby("team")["match_id"].nunique().rename("matches_played")
+    return means.join(stds).join(sample_sizes).reset_index()
 
 
 def build_signatures(events: pd.DataFrame, mode: str = "season", output_path: Path | None = None, **kwargs: float | int) -> pd.DataFrame:

@@ -65,6 +65,14 @@ npm run dev
 
 The FastAPI service exposes derived signatures only (`/health`, `/teams`, `/teams/{team}`, `/compare`, `/embedding`). The web interface is a standalone static-data deployment and provides team selection, two-team radar comparison, territorial footprint, tactical summaries, and similarity navigation. It is deliberately separated from the raw-data pipeline so visitors never trigger StatsBomb downloads.
 
+### Tactical intelligence features
+
+- **Explained similarity:** nearest-neighbour results state the two tactical dimensions that most closely match.
+- **Peer-relative archetypes:** profiles are tagged transparently as high-control press, direct transition, wide progression, low territorial block, or balanced system.
+- **Data confidence:** every profile shows the number of matches analysed and a sample-size label.
+- **Cross-source comparison:** users can compare teams across the available competition and season sources.
+- **Shareable analysis:** selections are encoded in the URL and can be copied directly from the site.
+
 For Vercel, the season pipeline also writes `web/public/data/tactical.json`, a small static derived-data payload. This makes the Next.js site deployable by itself; configure Vercel's **Root Directory** as `web/` and deploy. Re-run the season pipeline before a new deployment whenever the underlying competition data changes.
 
 ### Current data scope

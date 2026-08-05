@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T09:38:14.840653+00:00",
+  "generated_at": "2026-08-05T08:07:32.590383+00:00",
   "sources": [
     {
       "competition": "1. Bundesliga",
@@ -93,7 +93,8 @@
         "zone_l5_w3_std": 0.0029886496051098363,
         "zone_l5_w4_std": 0.008210694402485867,
         "avg_action_height_std": 0.0003802573145244986,
-        "width_dispersion_std": 0.008021581762399213
+        "width_dispersion_std": 0.008021581762399213,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -250,25 +251,51 @@
       "similar": [
         {
           "team": "Werder Bremen",
-          "similarity": 0.15900014334269677
+          "similarity": 0.15992944194685516,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Freiburg",
-          "similarity": 0.138249768823953
+          "similarity": 0.13900564677370053,
+          "reasons": [
+            "possession control",
+            "passing distance"
+          ]
         },
         {
           "team": "Borussia M\u00f6nchengladbach",
-          "similarity": 0.12505977550147726
+          "similarity": 0.12580916686695226,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "Bayer Leverkusen",
-          "similarity": 0.06048871653472797
+          "similarity": 0.04755057114320928,
+          "reasons": [
+            "forward intent",
+            "directness"
+          ]
         },
         {
           "team": "Bayern Munich",
-          "similarity": 0.001678574087242174
+          "similarity": 0.0025533771063555285,
+          "reasons": [
+            "forward intent",
+            "directness"
+          ]
         }
-      ]
+      ],
+      "archetype": "Balanced system",
+      "archetype_reason": "No single style dimension dominates this team\u2019s tactical profile.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Bayer Leverkusen",
@@ -352,7 +379,8 @@
         "zone_l5_w3_std": 0.007555872128802411,
         "zone_l5_w4_std": 0.009898801589742597,
         "avg_action_height_std": 0.05669897650224153,
-        "width_dispersion_std": 0.014378062868055165
+        "width_dispersion_std": 0.014378062868055165,
+        "matches_played": 34
       },
       "zones": [
         {
@@ -509,25 +537,51 @@
       "similar": [
         {
           "team": "Bayern Munich",
-          "similarity": 0.41726712738257565
+          "similarity": 0.38751122801139165,
+          "reasons": [
+            "forward intent",
+            "defensive height"
+          ]
         },
         {
           "team": "Eintracht Frankfurt",
-          "similarity": 0.21076557996768636
+          "similarity": 0.1903994865439166,
+          "reasons": [
+            "defensive height",
+            "directness"
+          ]
         },
         {
           "team": "VfB Stuttgart",
-          "similarity": 0.15516598279157487
+          "similarity": 0.1366107685333291,
+          "reasons": [
+            "width",
+            "directness"
+          ]
         },
         {
           "team": "Augsburg",
-          "similarity": 0.060488716534727954
+          "similarity": 0.047550571143209264,
+          "reasons": [
+            "forward intent",
+            "directness"
+          ]
         },
         {
           "team": "Freiburg",
-          "similarity": 0.01675824341177947
+          "similarity": 0.007215134730111766,
+          "reasons": [
+            "width",
+            "directness"
+          ]
         }
-      ]
+      ],
+      "archetype": "High-control press",
+      "archetype_reason": "Keeps the ball and operates higher up the pitch than most peers.",
+      "data_quality": {
+        "matches_played": 34,
+        "label": "Strong sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Bayern Munich",
@@ -611,7 +665,8 @@
         "zone_l5_w3_std": 0.00018263350998776922,
         "zone_l5_w4_std": 0.0001656280938792153,
         "avg_action_height_std": 0.01237634686346857,
-        "width_dispersion_std": 0.0014717528721441137
+        "width_dispersion_std": 0.0014717528721441137,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -767,26 +822,52 @@
       ],
       "similar": [
         {
-          "team": "Bayer Leverkusen",
-          "similarity": 0.4172671273825759
+          "team": "Eintracht Frankfurt",
+          "similarity": 0.3931873779271994,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
-          "team": "Eintracht Frankfurt",
-          "similarity": 0.39266678491822815
+          "team": "Bayer Leverkusen",
+          "similarity": 0.38751122801139165,
+          "reasons": [
+            "forward intent",
+            "defensive height"
+          ]
         },
         {
           "team": "VfB Stuttgart",
-          "similarity": 0.31011287319136854
+          "similarity": 0.310760665651151,
+          "reasons": [
+            "directness",
+            "possession control"
+          ]
         },
         {
           "team": "Werder Bremen",
-          "similarity": 0.2885875291787417
+          "similarity": 0.2892712343097203,
+          "reasons": [
+            "forward intent",
+            "passing distance"
+          ]
         },
         {
           "team": "FSV Mainz 05",
-          "similarity": 0.13122542787066885
+          "similarity": 0.13197145640475347,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         }
-      ]
+      ],
+      "archetype": "High-control press",
+      "archetype_reason": "Keeps the ball and operates higher up the pitch than most peers.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Bochum",
@@ -870,7 +951,8 @@
         "zone_l5_w3_std": 0.0005672311090288464,
         "zone_l5_w4_std": 0.0014824978247774574,
         "avg_action_height_std": 0.059647029161572565,
-        "width_dispersion_std": 0.004252374325980746
+        "width_dispersion_std": 0.004252374325980746,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -1027,25 +1109,51 @@
       "similar": [
         {
           "team": "VfB Stuttgart",
-          "similarity": 0.17513267955153425
+          "similarity": 0.1759111448742584,
+          "reasons": [
+            "width",
+            "defensive height"
+          ]
         },
         {
           "team": "Union Berlin",
-          "similarity": 0.11226557109795132
+          "similarity": 0.11296445198316508,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "Wolfsburg",
-          "similarity": 0.07979775494309788
+          "similarity": 0.08052840314441534,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "Darmstadt 98",
-          "similarity": 0.021026353871568617
+          "similarity": 0.02175078524859881,
+          "reasons": [
+            "width",
+            "forward intent"
+          ]
         },
         {
           "team": "RB Leipzig",
-          "similarity": 0.013811727280946484
+          "similarity": 0.014672529032405911,
+          "reasons": [
+            "defensive height",
+            "forward intent"
+          ]
         }
-      ]
+      ],
+      "archetype": "Direct transition",
+      "archetype_reason": "Moves play forward with a comparatively direct passing mix.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Borussia Dortmund",
@@ -1129,7 +1237,8 @@
         "zone_l5_w3_std": 0.009958751939884014,
         "zone_l5_w4_std": 0.004908927550436985,
         "avg_action_height_std": 0.06038456032465263,
-        "width_dispersion_std": 0.00224899871062291
+        "width_dispersion_std": 0.00224899871062291,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -1286,25 +1395,51 @@
       "similar": [
         {
           "team": "FC K\u00f6ln",
-          "similarity": 0.2838745153038741
+          "similarity": 0.28435930726579456,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Wolfsburg",
-          "similarity": 0.17122125790460135
+          "similarity": 0.1718390278898944,
+          "reasons": [
+            "passing distance",
+            "directness"
+          ]
         },
         {
           "team": "Borussia M\u00f6nchengladbach",
-          "similarity": 0.06496243723193412
+          "similarity": 0.06562449219647523,
+          "reasons": [
+            "defensive height",
+            "forward intent"
+          ]
         },
         {
           "team": "Freiburg",
-          "similarity": 0.05485131073640128
+          "similarity": 0.05553638234764431,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Hoffenheim",
-          "similarity": 0.048122082147656856
+          "similarity": 0.048873245114281684,
+          "reasons": [
+            "possession control",
+            "forward intent"
+          ]
         }
-      ]
+      ],
+      "archetype": "Direct transition",
+      "archetype_reason": "Moves play forward with a comparatively direct passing mix.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Borussia M\u00f6nchengladbach",
@@ -1388,7 +1523,8 @@
         "zone_l5_w3_std": 0.004645344597822534,
         "zone_l5_w4_std": 0.00029903339475640875,
         "avg_action_height_std": 0.0517590141925585,
-        "width_dispersion_std": 0.002045153143008502
+        "width_dispersion_std": 0.002045153143008502,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -1545,25 +1681,51 @@
       "similar": [
         {
           "team": "Hoffenheim",
-          "similarity": 0.17372896932368656
+          "similarity": 0.1744080132067439,
+          "reasons": [
+            "defensive height",
+            "forward intent"
+          ]
         },
         {
           "team": "Augsburg",
-          "similarity": 0.1250597755014773
+          "similarity": 0.12580916686695226,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "FC K\u00f6ln",
-          "similarity": 0.08567973084091121
+          "similarity": 0.08632470425848768,
+          "reasons": [
+            "possession control",
+            "defensive height"
+          ]
         },
         {
           "team": "Borussia Dortmund",
-          "similarity": 0.06496243723193411
+          "similarity": 0.06562449219647523,
+          "reasons": [
+            "defensive height",
+            "forward intent"
+          ]
         },
         {
           "team": "FC Heidenheim",
-          "similarity": 0.047679469526441316
+          "similarity": 0.04846982015990822,
+          "reasons": [
+            "possession control",
+            "forward intent"
+          ]
         }
-      ]
+      ],
+      "archetype": "Low territorial block",
+      "archetype_reason": "Defensive actions are concentrated deeper than most peers.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Darmstadt 98",
@@ -1647,7 +1809,8 @@
         "zone_l5_w3_std": 0.0017248371314199005,
         "zone_l5_w4_std": 0.002400512807095576,
         "avg_action_height_std": 0.0383172833571853,
-        "width_dispersion_std": 0.014972173791037324
+        "width_dispersion_std": 0.014972173791037324,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -1804,25 +1967,51 @@
       "similar": [
         {
           "team": "FC K\u00f6ln",
-          "similarity": 0.20613326247390612
+          "similarity": 0.20668314829685044,
+          "reasons": [
+            "possession control",
+            "defensive height"
+          ]
         },
         {
           "team": "Wolfsburg",
-          "similarity": 0.12553637074662802
+          "similarity": 0.126203739076633,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "Freiburg",
-          "similarity": 0.10693738496262674
+          "similarity": 0.10759978914770571,
+          "reasons": [
+            "defensive height",
+            "width"
+          ]
         },
         {
           "team": "FC Heidenheim",
-          "similarity": 0.08786453674657535
+          "similarity": 0.08860745228657343,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "Union Berlin",
-          "similarity": 0.0754165761255352
+          "similarity": 0.07611633402784342,
+          "reasons": [
+            "forward intent",
+            "defensive height"
+          ]
         }
-      ]
+      ],
+      "archetype": "Balanced system",
+      "archetype_reason": "No single style dimension dominates this team\u2019s tactical profile.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Eintracht Frankfurt",
@@ -1906,7 +2095,8 @@
         "zone_l5_w3_std": 0.0024521365487665224,
         "zone_l5_w4_std": 0.004444736655353931,
         "avg_action_height_std": 0.021127086845960333,
-        "width_dispersion_std": 0.003951331898235946
+        "width_dispersion_std": 0.003951331898235946,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -2063,25 +2253,51 @@
       "similar": [
         {
           "team": "Bayern Munich",
-          "similarity": 0.39266678491822815
+          "similarity": 0.3931873779271994,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Werder Bremen",
-          "similarity": 0.2942072852542833
-        },
-        {
-          "team": "Bayer Leverkusen",
-          "similarity": 0.21076557996768636
+          "similarity": 0.2949716694819897,
+          "reasons": [
+            "forward intent",
+            "width"
+          ]
         },
         {
           "team": "VfB Stuttgart",
-          "similarity": 0.1987032286320369
+          "similarity": 0.19955166679896846,
+          "reasons": [
+            "directness",
+            "forward intent"
+          ]
+        },
+        {
+          "team": "Bayer Leverkusen",
+          "similarity": 0.1903994865439166,
+          "reasons": [
+            "defensive height",
+            "directness"
+          ]
         },
         {
           "team": "RB Leipzig",
-          "similarity": 0.12709708096239453
+          "similarity": 0.12794902497568933,
+          "reasons": [
+            "possession control",
+            "directness"
+          ]
         }
-      ]
+      ],
+      "archetype": "High-control press",
+      "archetype_reason": "Keeps the ball and operates higher up the pitch than most peers.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|FC Heidenheim",
@@ -2165,7 +2381,8 @@
         "zone_l5_w3_std": 0.0028699186732137017,
         "zone_l5_w4_std": 0.019514382072965155,
         "avg_action_height_std": 0.03641391659493244,
-        "width_dispersion_std": 0.0008208864357923812
+        "width_dispersion_std": 0.0008208864357923812,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -2322,25 +2539,51 @@
       "similar": [
         {
           "team": "FSV Mainz 05",
-          "similarity": 0.17460084848206478
+          "similarity": 0.1753822496156562,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "FC K\u00f6ln",
-          "similarity": 0.14384539510503339
+          "similarity": 0.14452342053033573,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Darmstadt 98",
-          "similarity": 0.08786453674657538
+          "similarity": 0.08860745228657348,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "Borussia M\u00f6nchengladbach",
-          "similarity": 0.04767946952644132
+          "similarity": 0.048469820159908195,
+          "reasons": [
+            "possession control",
+            "forward intent"
+          ]
         },
         {
           "team": "Hoffenheim",
-          "similarity": 0.02194817021798154
+          "similarity": 0.022853611000642902,
+          "reasons": [
+            "forward intent",
+            "passing distance"
+          ]
         }
-      ]
+      ],
+      "archetype": "Direct transition",
+      "archetype_reason": "Moves play forward with a comparatively direct passing mix.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|FC K\u00f6ln",
@@ -2424,7 +2667,8 @@
         "zone_l5_w3_std": 0.0012760910468632173,
         "zone_l5_w4_std": 0.007338804735374006,
         "avg_action_height_std": 0.036509549973835695,
-        "width_dispersion_std": 0.00849240078209329
+        "width_dispersion_std": 0.00849240078209329,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -2581,25 +2825,51 @@
       "similar": [
         {
           "team": "Union Berlin",
-          "similarity": 0.3393932476524837
+          "similarity": 0.3398791286305836,
+          "reasons": [
+            "passing distance",
+            "width"
+          ]
         },
         {
           "team": "Borussia Dortmund",
-          "similarity": 0.283874515303874
+          "similarity": 0.2843593072657946,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Darmstadt 98",
-          "similarity": 0.2061332624739061
+          "similarity": 0.20668314829685044,
+          "reasons": [
+            "possession control",
+            "defensive height"
+          ]
         },
         {
           "team": "FC Heidenheim",
-          "similarity": 0.1438453951050333
+          "similarity": 0.14452342053033568,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Wolfsburg",
-          "similarity": 0.09466369714944319
+          "similarity": 0.09533631771569687,
+          "reasons": [
+            "defensive height",
+            "directness"
+          ]
         }
-      ]
+      ],
+      "archetype": "Wide progression",
+      "archetype_reason": "Distributes actions broadly across the pitch width.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|FSV Mainz 05",
@@ -2683,7 +2953,8 @@
         "zone_l5_w3_std": 0.0011418909437325938,
         "zone_l5_w4_std": 0.014360847420443157,
         "avg_action_height_std": 0.037109921125889234,
-        "width_dispersion_std": 0.00048091516708849424
+        "width_dispersion_std": 0.00048091516708849424,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -2840,25 +3111,51 @@
       "similar": [
         {
           "team": "FC Heidenheim",
-          "similarity": 0.17460084848206478
+          "similarity": 0.17538224961565624,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "Bayern Munich",
-          "similarity": 0.13122542787066885
+          "similarity": 0.13197145640475355,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Eintracht Frankfurt",
-          "similarity": 0.12285043341686713
+          "similarity": 0.12369321852811874,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "FC K\u00f6ln",
-          "similarity": 0.09376076096169148
+          "similarity": 0.09448863607992944,
+          "reasons": [
+            "width",
+            "forward intent"
+          ]
         },
         {
           "team": "RB Leipzig",
-          "similarity": 0.06658362145939027
+          "similarity": 0.06749342708982385,
+          "reasons": [
+            "directness",
+            "defensive height"
+          ]
         }
-      ]
+      ],
+      "archetype": "Wide progression",
+      "archetype_reason": "Distributes actions broadly across the pitch width.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Freiburg",
@@ -2942,7 +3239,8 @@
         "zone_l5_w3_std": 0.0010772384730737827,
         "zone_l5_w4_std": 0.002399663382750265,
         "avg_action_height_std": 0.014395672080531274,
-        "width_dispersion_std": 0.005942056393421033
+        "width_dispersion_std": 0.005942056393421033,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -3099,25 +3397,51 @@
       "similar": [
         {
           "team": "Augsburg",
-          "similarity": 0.13824976882395307
+          "similarity": 0.1390056467737005,
+          "reasons": [
+            "possession control",
+            "passing distance"
+          ]
         },
         {
           "team": "Darmstadt 98",
-          "similarity": 0.10693738496262681
+          "similarity": 0.10759978914770574,
+          "reasons": [
+            "defensive height",
+            "width"
+          ]
         },
         {
           "team": "Borussia Dortmund",
-          "similarity": 0.05485131073640125
+          "similarity": 0.05553638234764431,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "Bayern Munich",
-          "similarity": 0.020911406466335325
+          "similarity": 0.021666910094249432,
+          "reasons": [
+            "width",
+            "passing distance"
+          ]
         },
         {
           "team": "Borussia M\u00f6nchengladbach",
-          "similarity": 0.020264451240203204
+          "similarity": 0.021004588495935873,
+          "reasons": [
+            "width",
+            "possession control"
+          ]
         }
-      ]
+      ],
+      "archetype": "Direct transition",
+      "archetype_reason": "Moves play forward with a comparatively direct passing mix.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Hoffenheim",
@@ -3201,7 +3525,8 @@
         "zone_l5_w3_std": 0.0018689673083651175,
         "zone_l5_w4_std": 0.0017616479108132875,
         "avg_action_height_std": 0.07905461896929827,
-        "width_dispersion_std": 0.004725474391088835
+        "width_dispersion_std": 0.004725474391088835,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -3358,25 +3683,51 @@
       "similar": [
         {
           "team": "Wolfsburg",
-          "similarity": 0.23001150305074572
+          "similarity": 0.23067874665830795,
+          "reasons": [
+            "defensive height",
+            "passing distance"
+          ]
         },
         {
           "team": "Borussia M\u00f6nchengladbach",
-          "similarity": 0.17372896932368653
+          "similarity": 0.1744080132067439,
+          "reasons": [
+            "defensive height",
+            "forward intent"
+          ]
         },
         {
           "team": "Borussia Dortmund",
-          "similarity": 0.048122082147656856
+          "similarity": 0.048873245114281684,
+          "reasons": [
+            "possession control",
+            "forward intent"
+          ]
         },
         {
           "team": "FC Heidenheim",
-          "similarity": 0.02194817021798154
+          "similarity": 0.022853611000642933,
+          "reasons": [
+            "forward intent",
+            "passing distance"
+          ]
         },
         {
           "team": "Bochum",
-          "similarity": 0.009653986729671373
+          "similarity": 0.01048619890989741,
+          "reasons": [
+            "forward intent",
+            "width"
+          ]
         }
-      ]
+      ],
+      "archetype": "Low territorial block",
+      "archetype_reason": "Defensive actions are concentrated deeper than most peers.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|RB Leipzig",
@@ -3460,7 +3811,8 @@
         "zone_l5_w3_std": 0.00046475989498938547,
         "zone_l5_w4_std": 0.005886958669865555,
         "avg_action_height_std": 0.0024099223946784654,
-        "width_dispersion_std": 0.004189593691061311
+        "width_dispersion_std": 0.004189593691061311,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -3617,25 +3969,51 @@
       "similar": [
         {
           "team": "Union Berlin",
-          "similarity": 0.17407749298915548
+          "similarity": 0.17481417119479947,
+          "reasons": [
+            "passing distance",
+            "directness"
+          ]
         },
         {
           "team": "Eintracht Frankfurt",
-          "similarity": 0.12709708096239453
+          "similarity": 0.12794902497568933,
+          "reasons": [
+            "possession control",
+            "directness"
+          ]
         },
         {
           "team": "VfB Stuttgart",
-          "similarity": 0.09950457485948097
+          "similarity": 0.10047259772157807,
+          "reasons": [
+            "forward intent",
+            "defensive height"
+          ]
         },
         {
           "team": "Werder Bremen",
-          "similarity": 0.06971680058907669
+          "similarity": 0.07074159618576745,
+          "reasons": [
+            "passing distance",
+            "forward intent"
+          ]
         },
         {
           "team": "FSV Mainz 05",
-          "similarity": 0.06658362145939024
+          "similarity": 0.06749342708982387,
+          "reasons": [
+            "directness",
+            "defensive height"
+          ]
         }
-      ]
+      ],
+      "archetype": "Balanced system",
+      "archetype_reason": "No single style dimension dominates this team\u2019s tactical profile.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Union Berlin",
@@ -3719,7 +4097,8 @@
         "zone_l5_w3_std": 0.0020263372920754992,
         "zone_l5_w4_std": 0.0002031430013557955,
         "avg_action_height_std": 0.0023498354590025944,
-        "width_dispersion_std": 0.0030302387670008007
+        "width_dispersion_std": 0.0030302387670008007,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -3876,25 +4255,51 @@
       "similar": [
         {
           "team": "FC K\u00f6ln",
-          "similarity": 0.3393932476524838
+          "similarity": 0.3398791286305838,
+          "reasons": [
+            "passing distance",
+            "width"
+          ]
         },
         {
           "team": "RB Leipzig",
-          "similarity": 0.1740774929891555
+          "similarity": 0.17481417119479947,
+          "reasons": [
+            "passing distance",
+            "directness"
+          ]
         },
         {
           "team": "Bochum",
-          "similarity": 0.11226557109795132
+          "similarity": 0.1129644519831651,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "Darmstadt 98",
-          "similarity": 0.07541657612553525
+          "similarity": 0.07611633402784344,
+          "reasons": [
+            "forward intent",
+            "defensive height"
+          ]
         },
         {
           "team": "Borussia Dortmund",
-          "similarity": 0.022948266121653682
+          "similarity": 0.023670957202686676,
+          "reasons": [
+            "forward intent",
+            "passing distance"
+          ]
         }
-      ]
+      ],
+      "archetype": "Wide progression",
+      "archetype_reason": "Distributes actions broadly across the pitch width.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|VfB Stuttgart",
@@ -3978,7 +4383,8 @@
         "zone_l5_w3_std": 0.0018915965998610308,
         "zone_l5_w4_std": 0.0018424719071862918,
         "avg_action_height_std": 0.00578090246387418,
-        "width_dispersion_std": 0.0009245360243251288
+        "width_dispersion_std": 0.0009245360243251288,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -4135,25 +4541,51 @@
       "similar": [
         {
           "team": "Bayern Munich",
-          "similarity": 0.31011287319136854
+          "similarity": 0.310760665651151,
+          "reasons": [
+            "directness",
+            "possession control"
+          ]
         },
         {
           "team": "Eintracht Frankfurt",
-          "similarity": 0.19870322863203693
+          "similarity": 0.19955166679896846,
+          "reasons": [
+            "directness",
+            "forward intent"
+          ]
         },
         {
           "team": "Bochum",
-          "similarity": 0.1751326795515342
+          "similarity": 0.1759111448742584,
+          "reasons": [
+            "width",
+            "defensive height"
+          ]
         },
         {
           "team": "Bayer Leverkusen",
-          "similarity": 0.15516598279157492
+          "similarity": 0.1366107685333291,
+          "reasons": [
+            "width",
+            "directness"
+          ]
         },
         {
           "team": "Werder Bremen",
-          "similarity": 0.13244895974043028
+          "similarity": 0.13348736570259517,
+          "reasons": [
+            "defensive height",
+            "forward intent"
+          ]
         }
-      ]
+      ],
+      "archetype": "High-control press",
+      "archetype_reason": "Keeps the ball and operates higher up the pitch than most peers.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Werder Bremen",
@@ -4237,7 +4669,8 @@
         "zone_l5_w3_std": 0.004116514729767419,
         "zone_l5_w4_std": 0.0012242905813705488,
         "avg_action_height_std": 0.03698101270875247,
-        "width_dispersion_std": 0.005106698401062315
+        "width_dispersion_std": 0.005106698401062315,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -4394,25 +4827,51 @@
       "similar": [
         {
           "team": "Eintracht Frankfurt",
-          "similarity": 0.29420728525428325
+          "similarity": 0.29497166948198966,
+          "reasons": [
+            "forward intent",
+            "width"
+          ]
         },
         {
           "team": "Bayern Munich",
-          "similarity": 0.2885875291787414
+          "similarity": 0.28927123430972057,
+          "reasons": [
+            "forward intent",
+            "passing distance"
+          ]
         },
         {
           "team": "Augsburg",
-          "similarity": 0.15900014334269671
+          "similarity": 0.15992944194685518,
+          "reasons": [
+            "directness",
+            "passing distance"
+          ]
         },
         {
           "team": "VfB Stuttgart",
-          "similarity": 0.1324489597404303
+          "similarity": 0.13348736570259512,
+          "reasons": [
+            "defensive height",
+            "forward intent"
+          ]
         },
         {
           "team": "RB Leipzig",
-          "similarity": 0.0697168005890767
+          "similarity": 0.07074159618576747,
+          "reasons": [
+            "passing distance",
+            "forward intent"
+          ]
         }
-      ]
+      ],
+      "archetype": "Balanced system",
+      "archetype_reason": "No single style dimension dominates this team\u2019s tactical profile.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "1. Bundesliga|2023|Wolfsburg",
@@ -4496,7 +4955,8 @@
         "zone_l5_w3_std": 0.0013673718696207448,
         "zone_l5_w4_std": 0.0036162474318396365,
         "avg_action_height_std": 0.0869711987359046,
-        "width_dispersion_std": 0.002160404157152296
+        "width_dispersion_std": 0.002160404157152296,
+        "matches_played": 2
       },
       "zones": [
         {
@@ -4653,25 +5113,51 @@
       "similar": [
         {
           "team": "Hoffenheim",
-          "similarity": 0.23001150305074577
+          "similarity": 0.23067874665830795,
+          "reasons": [
+            "defensive height",
+            "passing distance"
+          ]
         },
         {
           "team": "Borussia Dortmund",
-          "similarity": 0.17122125790460133
+          "similarity": 0.17183902788989436,
+          "reasons": [
+            "passing distance",
+            "directness"
+          ]
         },
         {
           "team": "Darmstadt 98",
-          "similarity": 0.125536370746628
+          "similarity": 0.126203739076633,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         },
         {
           "team": "FC K\u00f6ln",
-          "similarity": 0.09466369714944319
+          "similarity": 0.09533631771569687,
+          "reasons": [
+            "defensive height",
+            "directness"
+          ]
         },
         {
           "team": "Bochum",
-          "similarity": 0.07979775494309785
+          "similarity": 0.08052840314441533,
+          "reasons": [
+            "forward intent",
+            "possession control"
+          ]
         }
-      ]
+      ],
+      "archetype": "Direct transition",
+      "archetype_reason": "Moves play forward with a comparatively direct passing mix.",
+      "data_quality": {
+        "matches_played": 2,
+        "label": "Small sample"
+      }
     },
     {
       "id": "Champions League|2015|Atl\u00e9tico Madrid",
@@ -4755,7 +5241,8 @@
         "zone_l5_w3_std": 0.0,
         "zone_l5_w4_std": 0.0,
         "avg_action_height_std": 0.0,
-        "width_dispersion_std": 0.0
+        "width_dispersion_std": 0.0,
+        "matches_played": 1
       },
       "zones": [
         {
@@ -4912,9 +5399,19 @@
       "similar": [
         {
           "team": "Real Madrid",
-          "similarity": -1.0
+          "similarity": -1.0,
+          "reasons": [
+            "defensive height",
+            "directness"
+          ]
         }
-      ]
+      ],
+      "archetype": "High-control press",
+      "archetype_reason": "Keeps the ball and operates higher up the pitch than most peers.",
+      "data_quality": {
+        "matches_played": 1,
+        "label": "Small sample"
+      }
     },
     {
       "id": "Champions League|2015|Real Madrid",
@@ -4998,7 +5495,8 @@
         "zone_l5_w3_std": 0.0,
         "zone_l5_w4_std": 0.0,
         "avg_action_height_std": 0.0,
-        "width_dispersion_std": 0.0
+        "width_dispersion_std": 0.0,
+        "matches_played": 1
       },
       "zones": [
         {
@@ -5155,9 +5653,19 @@
       "similar": [
         {
           "team": "Atl\u00e9tico Madrid",
-          "similarity": -1.0
+          "similarity": -1.0,
+          "reasons": [
+            "defensive height",
+            "directness"
+          ]
         }
-      ]
+      ],
+      "archetype": "Direct transition",
+      "archetype_reason": "Moves play forward with a comparatively direct passing mix.",
+      "data_quality": {
+        "matches_played": 1,
+        "label": "Small sample"
+      }
     }
   ]
 }
